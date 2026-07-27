@@ -1,0 +1,238 @@
+body {
+  background-color: #faf8ff;
+  color: #191b22;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.brand-font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.stamp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  border: 4px double #ba1a1a;
+  color: #ba1a1a;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.4);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  box-shadow: inset 0 0 0 2px rgba(186, 26, 26, 0.2);
+}
+
+/* Pending variant — same stamp shape, amber instead of red */
+.stamp--pending {
+  border-color: #b45309;
+  color: #b45309;
+  box-shadow: inset 0 0 0 2px rgba(180, 83, 9, 0.2);
+}
+
+.price-tag {
+  position: absolute;
+  top: 1rem;
+  right: -0.5rem;
+  background: #FF7F50;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  font-weight: 700;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 0.25rem 0 0 0.25rem;
+  box-shadow: -2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.price-tag::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -0.5rem;
+  border-left: 0.5rem solid #a43c12;
+  border-bottom: 0.5rem solid transparent;
+}
+
+.drawer-open .drawer__chevron {
+  transform: rotate(180deg);
+}
+
+/* Transition helpers for JS views */
+.view {
+  min-height: 80vh;
+}
+
+/* Filter styling overrides */
+.filter-input {
+  background: #ffffff;
+  border: 1px solid #e2e2ec;
+  border-radius: 999px;
+  padding: 0.6rem 1.25rem;
+  transition: all 0.2s;
+}
+.filter-input:focus {
+  outline: none;
+  border-color: #FF7F50;
+  box-shadow: 0 0 0 3px rgba(255, 127, 80, 0.1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0,0,0,0.1);
+}
+
+.ticket-stub {
+  background: white;
+  mask-image: radial-gradient(circle at 0 50%, transparent 10px, black 11px),
+              radial-gradient(circle at 100% 50%, transparent 10px, black 11px);
+  mask-position: 0 0, 100% 0;
+  mask-repeat: no-repeat;
+}
+
+/* ============================================
+   DETAIL PHOTO — click/tap to zoom affordance
+   ============================================ */
+.zoomable {
+  cursor: zoom-in;
+}
+
+.zoom-hint {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  background: rgba(26, 28, 35, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+/* ============================================
+   SELECTION DRAWER — one corner panel, same on mobile and desktop.
+   The outer #drawer is pinned bottom-right and never moves. Everything
+   below just changes SIZE, so it visibly grows toward the upper-left
+   and shrinks back toward the bottom-right corner it started from —
+   never sideways or in two different layout systems.
+   ============================================ */
+
+#drawer-container {
+  position: relative;
+  width: 56px;
+  border-radius: 9999px;
+  overflow: visible; /* let the count badge poke out over the circle */
+  transition: width 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+              border-radius 0.28s ease;
+}
+
+#drawer-container.drawer-open {
+  width: min(90vw, 400px);
+  border-radius: 1rem;
+  overflow: hidden; /* clip the list neatly once it's a full panel */
+}
+
+.drawer-toggle-btn {
+  display: flex;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  gap: 0;
+  justify-content: center;
+  cursor: pointer;
+  transition: width 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+              height 0.28s ease,
+              padding 0.28s ease,
+              gap 0.2s ease;
+}
+
+.drawer-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#drawer-container.drawer-open .drawer-toggle-btn {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.drawer-fab-icon {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#drawer-container.drawer-open .drawer-fab-icon {
+  display: none;
+}
+
+.drawer-count-badge {
+  background: #FF7F50;
+  color: white;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 20px;
+  height: 20px;
+  font-size: 10px;
+  padding: 0 4px;
+  transition: all 0.22s ease;
+}
+
+#drawer-container.drawer-open .drawer-count-badge {
+  position: static;
+  min-width: 28px;
+  height: 28px;
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+.drawer-label {
+  display: none;
+}
+
+#drawer-container.drawer-open .drawer-label {
+  display: inline;
+}
+
+#drawer-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+#drawer-container.drawer-open #drawer-body {
+  max-height: 70vh;
+}
+
+/* ============================================
+   MOBILE CARD SIZING — 2 per row needs tighter type/spacing
+   ============================================ */
+@media (max-width: 639px) {
+  .price-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.55rem;
+  }
+
+  .stamp {
+    font-size: 1rem;
+    padding: 0.35rem 0.9rem;
+    border-width: 3px;
+  }
+}

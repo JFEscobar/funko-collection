@@ -1,0 +1,116 @@
+[
+  {
+    "id": "001",
+    "name": "Bartman",
+    "series": "Simpsons",
+    "popNumber": "503",
+    "images": [
+      "images/bartman_1.jpg",
+      "images/bartman_2.jpg",
+      "images/bartman_3.jpg",
+      "images/bartman_4.jpg",
+      "images/bartman_5.jpg",
+      "images/bartman_6.jpg"
+    ],
+    "price": 15.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-06-01"
+  },
+  {
+    "id": "002",
+    "name": "Luffy Gear Four",
+    "series": "One Piece",
+    "popNumber": "926",
+    "images": [
+      "images/luffy_gear4_1.jpg",
+      "images/luffy_gear4_2.jpg",
+      "images/luffy_gear4_3.jpg",
+      "images/luffy_gear4_4.jpg",
+      "images/luffy_gear4_5.jpg",
+      "images/luffy_gear4_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "003",
+    "name": "Mewtow (Flocked)",
+    "series": "Pokemon",
+    "popNumber": "581",
+    "images": [
+      "images/mewtwo_1.jpg",
+      "images/mewtwo_2.jpg",
+      "images/mewtwo_3.jpg",
+      "images/mewtwo_4.jpg",
+      "images/mewtwo_5.jpg",
+      "images/mewtwo_6.jpg"
+    ],
+    "price": 12.5,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Come with protector case.",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "004",
+    "name": "Muhammad Ali",
+    "series": "Sports Lengends",
+    "popNumber": "01",
+    "images": [
+      "images/muhammad_ali_1.jpg",
+      "images/muhammad_ali_2.jpg",
+      "images/muhammad_ali_3.jpg",
+      "images/muhammad_ali_4.jpg",
+      "images/muhammad_ali_5.jpg",
+      "images/muhammad_ali_6.jpg"
+    ],
+    "price": 12.5,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Come with protector case.",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "005",
+    "name": "Trafalgar Law",
+    "series": "One Piece",
+    "popNumber": "101",
+    "images": [
+      "images/trafalgar_1.jpg",
+      "images/trafalgar_2.jpg",
+      "images/trafalgar_3.jpg",
+      "images/trafalgar_4.jpg",
+      "images/trafalgar_5.jpg",
+      "images/trafalgar_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "pending",
+    "notes": "",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "006",
+    "name": "Zuko",
+    "series": "Avatar: The Last Airbender",
+    "popNumber": "838",
+    "images": [
+      "images/zuko_1.jpg",
+      "images/zuko_2.jpg",
+      "images/zuko_3.jpg",
+      "images/zuko_4.jpg",
+      "images/zuko_5.jpg",
+      "images/zuko_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "sold",
+    "notes": "Small dent on the top corner of the box, figure itself is unaffected.",
+    "dateAdded": "2026-06-01"
+  }
+]
