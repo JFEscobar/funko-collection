@@ -4,12 +4,128 @@
 const CURRENCY = "$";
 
 /* =====================================================================
+   TRANSLATIONS
+   ===================================================================== */
+const TRANSLATIONS = {
+  fr: {
+    pageTitle: "The Shelf — Catalogue de collection Pop",
+    headerSubtitle: "Catalogue de collection Pop",
+    headerTagline: '"Choisissez ce que vous aimez. Copiez la liste. Simple."',
+    loadError:
+      "Impossible de charger les données de la collection. Assurez-vous d'exécuter ceci sur un serveur.",
+    notFoundTitle: "Oups ! Ce Funko a disparu.",
+    backToShelf: "Retour à l'étagère",
+    collectionTitle: "La Collection",
+    collectionSubtitle:
+      "Parcourez, sélectionnez et copiez votre liste en quelques secondes.",
+    searchPlaceholder: "Rechercher par nom...",
+    allSeries: "Toutes les séries",
+    availableOnly: "Disponible seulement",
+    noMatches: "Aucun résultat pour ces filtres.",
+    unnumbered: "Sans numéro",
+    added: "Ajouté",
+    details: "Détails",
+    sold: "Vendu",
+    pending: "En attente",
+    available: "Disponible",
+    soldStamp: "VENDU",
+    pendingStamp: "EN ATTENTE",
+    soldOutStamp: "VENDU",
+    collectorsNotes: "Notes du collectionneur",
+    itemSold: "Article vendu",
+    salePending: "Vente en attente",
+    addedToWishlist: "✓ Ajouté à la liste",
+    addToWishlist: "Ajouter à ma liste",
+    inListHint:
+      "Cet article est dans votre liste. Appuyez à nouveau pour le retirer.",
+    itemsSelected: "Articles sélectionnés",
+    copyListBtn: "Copier la liste",
+    toastCopied: "Liste copiée ! Collez-la où vous le souhaitez.",
+    toastCopyFailed:
+      "Impossible de copier automatiquement — copiez la liste manuellement.",
+    removeItem: "Retirer l'article",
+    previousPhoto: "Photo précédente",
+    nextPhoto: "Photo suivante",
+    photoLabel: "Photo",
+    summaryHeader: "📦 Liste Funko :",
+    summaryTotal: "Total :",
+    noPhotoYet: "Pas de photo",
+  },
+  en: {
+    pageTitle: "The Shelf — Funko Pop Collection",
+    headerSubtitle: "Pop Collector Catalog",
+    headerTagline: '"Pick what you like. Copy the list. Easy."',
+    loadError:
+      "Could not load collection data. Ensure you are running this on a server environment.",
+    notFoundTitle: "Oops! This Funko has vanished.",
+    backToShelf: "Back to the shelf",
+    collectionTitle: "The Collection",
+    collectionSubtitle: "Browse, select, and copy your list in seconds.",
+    searchPlaceholder: "Search by name...",
+    allSeries: "All Series",
+    availableOnly: "Available Only",
+    noMatches: "No matches found for your current filters.",
+    unnumbered: "Unnumbered",
+    added: "Added",
+    details: "Details",
+    sold: "Sold",
+    pending: "Pending",
+    available: "Available",
+    soldStamp: "SOLD",
+    pendingStamp: "PENDING",
+    soldOutStamp: "SOLD OUT",
+    collectorsNotes: "Collector's Notes",
+    itemSold: "Item Sold",
+    salePending: "Sale Pending",
+    addedToWishlist: "✓ Added to Wishlist",
+    addToWishlist: "Add to My Wishlist",
+    inListHint: "This item is in your list. Tap again to remove.",
+    itemsSelected: "Items selected",
+    copyListBtn: "Copy List to Clipboard",
+    toastCopied: "List copied! Paste it wherever you'd like to send it.",
+    toastCopyFailed:
+      "Couldn't copy automatically — please copy the list manually.",
+    removeItem: "Remove item",
+    previousPhoto: "Previous photo",
+    nextPhoto: "Next photo",
+    photoLabel: "Photo",
+    summaryHeader: "📦 Funko List:",
+    summaryTotal: "Total:",
+    noPhotoYet: "No photo yet",
+  },
+};
+
+// Common values for the free-text "condition" field. Anything that doesn't
+// match one of these is shown exactly as typed, in either language.
+const CONDITION_TRANSLATIONS = {
+  "mint box": { fr: "boîte neuve", en: "mint box" },
+  "box damage": { fr: "boîte endommagée", en: "box damage" },
+  loose: { fr: "figurine seule (sans boîte)", en: "loose" },
+  "no box": { fr: "sans boîte", en: "no box" },
+};
+
+function t(key) {
+  return TRANSLATIONS[currentLang][key] || key;
+}
+
+function translateCondition(condition) {
+  const match =
+    CONDITION_TRANSLATIONS[
+      String(condition || "")
+        .toLowerCase()
+        .trim()
+    ];
+  return match ? match[currentLang] : condition;
+}
+
+/* =====================================================================
    STATE
    ===================================================================== */
 let ALL_FUNKOS = [];
 let selectedIds = loadSelection();
 let filters = { search: "", series: "all", availableOnly: false };
 let lightboxState = { images: [], index: 0 };
+let currentLang = localStorage.getItem("funko-lang") || "fr";
 
 const view = document.getElementById("view");
 
@@ -22,16 +138,46 @@ async function init() {
   } catch (err) {
     view.innerHTML = `<div class="max-w-md mx-auto text-center py-20">
       <span class="material-symbols-outlined text-5xl text-error mb-4">error</span>
-      <p class="text-on-surface-variant">Could not load collection data. Ensure you are running this on a server environment.</p>
+      <p class="text-on-surface-variant">${escapeHtml(t("loadError"))}</p>
     </div>`;
     return;
   }
   window.addEventListener("hashchange", route);
+  applyStaticText();
+  setupLangToggle();
   route();
   renderDrawer();
   setupDrawerToggle();
   setupSendButton();
   setupLightbox();
+}
+
+/* =====================================================================
+   LANGUAGE
+   ===================================================================== */
+function applyStaticText() {
+  document.documentElement.lang = currentLang;
+  document.title = t("pageTitle");
+
+  document.querySelectorAll(".lang-switch__btn").forEach((btn) => {
+    btn.classList.toggle(
+      "lang-switch__btn--active",
+      btn.dataset.lang === currentLang,
+    );
+  });
+}
+
+function setupLangToggle() {
+  document.querySelectorAll(".lang-switch__btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (btn.dataset.lang === currentLang) return;
+      currentLang = btn.dataset.lang;
+      localStorage.setItem("funko-lang", currentLang);
+      applyStaticText();
+      route();
+      renderDrawer();
+    });
+  });
 }
 
 function route() {
@@ -46,9 +192,9 @@ function route() {
       renderDetail(funko);
     } else {
       view.innerHTML = `<div class="text-center py-20">
-        <p class="text-xl font-headline text-navy-deep mb-6">Oops! This Funko has vanished.</p>
+        <p class="text-xl font-headline text-navy-deep mb-6">${escapeHtml(t("notFoundTitle"))}</p>
         <a class="inline-flex items-center gap-2 text-coral-vibrant font-bold hover:underline" href="#/">
-          <span class="material-symbols-outlined">arrow_back</span> Back to the shelf
+          <span class="material-symbols-outlined">arrow_back</span> ${escapeHtml(t("backToShelf"))}
         </a>
       </div>`;
     }
@@ -67,22 +213,18 @@ function renderGallery() {
   view.innerHTML = `
     <div class="mb-12 space-y-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
-        <div>
-          <h1 class="text-4xl font-headline text-navy-deep mb-2">The Collection</h1>
-          <p class="text-on-surface-variant font-body">Browse, select, and copy your list in seconds.</p>
-        </div>
         <div class="flex flex-wrap items-center gap-3">
-          <div class="relative flex-1 min-w-[240px]">
+          <div class="relative w-full md:flex-1 md:min-w-[400px] md:max-w-[700px]">
             <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-xl">search</span>
-            <input type="search" id="filter-search" placeholder="Search by name..." class="filter-input w-full pl-12" value="${escapeAttr(filters.search)}">
+            <input type="search" id="filter-search" placeholder="${escapeAttr(t("searchPlaceholder"))}" class="filter-input w-full pl-12" value="${escapeAttr(filters.search)}">
           </div>
           <select id="filter-series" class="filter-input min-w-[160px] pr-10 appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_0.5rem_center] bg-[length:1.5em_1.5em]">
-            <option value="all">All Series</option>
+            <option value="all">${escapeHtml(t("allSeries"))}</option>
             ${seriesList.map((s) => `<option value="${escapeAttr(s)}" ${filters.series === s ? "selected" : ""}>${escapeHtml(s)}</option>`).join("")}
           </select>
           <label class="flex items-center gap-3 px-4 py-2 bg-white rounded-full border border-surface-container-high cursor-pointer hover:bg-surface-container-low transition-colors">
             <input type="checkbox" id="filter-available" ${filters.availableOnly ? "checked" : ""} class="rounded text-coral-vibrant focus:ring-coral-vibrant">
-            <span class="text-sm font-medium text-navy-deep">Available Only</span>
+            <span class="text-sm font-medium text-navy-deep">${escapeHtml(t("availableOnly"))}</span>
           </label>
         </div>
       </div>
@@ -126,7 +268,7 @@ function renderGrid() {
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="col-span-full py-20 text-center border-2 border-dashed border-surface-container-highest rounded-2xl">
       <span class="material-symbols-outlined text-4xl text-surface-dim mb-2">filter_list_off</span>
-      <p class="text-on-surface-variant font-medium">No matches found for your current filters.</p>
+      <p class="text-on-surface-variant font-medium">${escapeHtml(t("noMatches"))}</p>
     </div>`;
     return;
   }
@@ -152,23 +294,23 @@ function cardTemplate(f) {
         }
 
         <div class="price-tag">${CURRENCY}${f.price.toFixed(2)}</div>
-        ${isSold ? `<div class="stamp">SOLD</div>` : isPending ? `<div class="stamp stamp--pending">PENDING</div>` : ""}
+        ${isSold ? `<div class="stamp">${escapeHtml(t("soldStamp"))}</div>` : isPending ? `<div class="stamp stamp--pending">${escapeHtml(t("pendingStamp"))}</div>` : ""}
       </div>
 
       <div class="flex-1 flex flex-col px-1">
         <p class="text-[11px] sm:text-xs font-mono font-bold text-on-surface-variant uppercase tracking-widest mb-1">${escapeHtml(f.series)}</p>
         <h3 class="font-headline font-bold text-base sm:text-lg text-navy-deep leading-tight mb-2 flex-1">${escapeHtml(f.name)}</h3>
         <div class="flex items-center justify-between mt-auto pt-3 sm:pt-4 border-t border-surface-container-low">
-          <span class="text-xs sm:text-sm font-medium text-on-surface-variant">${f.popNumber ? "#" + escapeHtml(f.popNumber) : "Unnumbered"}</span>
+          <span class="text-xs sm:text-sm font-medium text-on-surface-variant">${f.popNumber ? "#" + escapeHtml(f.popNumber) : escapeHtml(t("unnumbered"))}</span>
           ${
             isSelected
               ? `
             <span class="flex items-center gap-1.5 text-coral-vibrant text-[10px] sm:text-xs font-bold uppercase tracking-wider">
-              <span class="material-symbols-outlined text-sm">check_circle</span> Added
+              <span class="material-symbols-outlined text-sm">check_circle</span> ${escapeHtml(t("added"))}
             </span>
           `
               : `
-            <span class="text-[10px] sm:text-xs font-bold text-surface-dim uppercase tracking-wider group-hover:text-coral-vibrant transition-colors">Details &rarr;</span>
+            <span class="text-[10px] sm:text-xs font-bold text-surface-dim uppercase tracking-wider group-hover:text-coral-vibrant transition-colors">${escapeHtml(t("details"))} &rarr;</span>
           `
           }
         </div>
@@ -190,7 +332,7 @@ function renderDetail(f) {
   view.innerHTML = `
     <div class="mb-10">
       <a href="#/" class="inline-flex items-center gap-2 py-2 px-4 bg-white border border-surface-container-high rounded-full font-headline font-bold text-sm text-navy-deep hover:bg-surface-container-low transition-all">
-        <span class="material-symbols-outlined text-lg">arrow_back</span> Back to the shelf
+        <span class="material-symbols-outlined text-lg">arrow_back</span> ${escapeHtml(t("backToShelf"))}
       </a>
     </div>
 
@@ -204,7 +346,7 @@ function renderDetail(f) {
                 : placeholderMarkup(f.name)
             }
           </div>
-          ${isSold ? `<div class="stamp text-4xl">SOLD OUT</div>` : isPending ? `<div class="stamp stamp--pending text-4xl">PENDING</div>` : ""}
+          ${isSold ? `<div class="stamp text-4xl">${escapeHtml(t("soldOutStamp"))}</div>` : isPending ? `<div class="stamp stamp--pending text-4xl">${escapeHtml(t("pendingStamp"))}</div>` : ""}
           ${images.length ? `<div class="zoom-hint"><span class="material-symbols-outlined text-lg">zoom_in</span></div>` : ""}
         </div>
 
@@ -212,13 +354,13 @@ function renderDetail(f) {
           images.length > 1
             ? `
           <div class="flex items-center justify-center gap-6">
-            <button class="w-12 h-12 flex items-center justify-center rounded-full border border-surface-container-high bg-white text-navy-deep hover:bg-surface-container-low transition-all" id="carousel-prev" type="button" aria-label="Previous photo">
+            <button class="w-12 h-12 flex items-center justify-center rounded-full border border-surface-container-high bg-white text-navy-deep hover:bg-surface-container-low transition-all" id="carousel-prev" type="button" aria-label="${escapeAttr(t("previousPhoto"))}">
               <span class="material-symbols-outlined">chevron_left</span>
             </button>
             <div class="flex gap-2" id="carousel-dots">
-              ${images.map((_, i) => `<button class="w-2.5 h-2.5 rounded-full transition-all ${i === 0 ? "bg-coral-vibrant w-6" : "bg-surface-dim hover:bg-on-surface-variant"}" data-index="${i}" aria-label="Photo ${i + 1}"></button>`).join("")}
+              ${images.map((_, i) => `<button class="w-2.5 h-2.5 rounded-full transition-all ${i === 0 ? "bg-coral-vibrant w-6" : "bg-surface-dim hover:bg-on-surface-variant"}" data-index="${i}" aria-label="${escapeAttr(t("photoLabel"))} ${i + 1}"></button>`).join("")}
             </div>
-            <button class="w-12 h-12 flex items-center justify-center rounded-full border border-surface-container-high bg-white text-navy-deep hover:bg-surface-container-low transition-all" id="carousel-next" type="button" aria-label="Next photo">
+            <button class="w-12 h-12 flex items-center justify-center rounded-full border border-surface-container-high bg-white text-navy-deep hover:bg-surface-container-low transition-all" id="carousel-next" type="button" aria-label="${escapeAttr(t("nextPhoto"))}">
               <span class="material-symbols-outlined">chevron_right</span>
             </button>
           </div>
@@ -231,9 +373,9 @@ function renderDetail(f) {
         <div class="mb-8">
           <div class="flex flex-wrap gap-2 mb-6">
             ${f.popNumber ? `<span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-mono font-bold rounded">#${escapeHtml(f.popNumber)}</span>` : ""}
-            <span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-mono font-bold rounded uppercase tracking-wider">${escapeHtml(f.condition)}</span>
+            <span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-mono font-bold rounded uppercase tracking-wider">${escapeHtml(translateCondition(f.condition))}</span>
             <span class="px-3 py-1 text-xs font-mono font-bold rounded uppercase tracking-wider ${isSold ? "bg-error-container text-on-error-container" : isPending ? "bg-amber-100 text-amber-800" : "bg-secondary-container text-on-secondary-container"}">
-              ${isSold ? "Sold" : isPending ? "Pending" : "Available"}
+              ${isSold ? escapeHtml(t("sold")) : isPending ? escapeHtml(t("pending")) : escapeHtml(t("available"))}
             </span>
           </div>
 
@@ -247,7 +389,7 @@ function renderDetail(f) {
             f.notes
               ? `
             <div class="bg-surface-container-low rounded-2xl p-6 border-l-4 border-coral-vibrant">
-              <h4 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">Collector's Notes</h4>
+              <h4 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">${escapeHtml(t("collectorsNotes"))}</h4>
               <p class="text-on-surface leading-relaxed italic">"${escapeHtml(f.notes)}"</p>
             </div>
           `
@@ -258,9 +400,9 @@ function renderDetail(f) {
         <div class="mt-auto pt-8">
           <button class="w-full py-5 px-8 rounded-2xl font-headline font-extrabold text-lg flex items-center justify-center gap-3 transition-all transform active:scale-95 ${!isAvailable ? "bg-surface-container text-on-surface-variant cursor-not-allowed opacity-50" : isSelected ? "bg-navy-deep text-white shadow-xl" : "bg-coral-vibrant text-white shadow-xl shadow-coral-vibrant/20 hover:bg-[#ff8f66]"}" id="toggle-select-btn" type="button" ${!isAvailable ? "disabled" : ""}>
             <span class="material-symbols-outlined">${isSold ? "block" : isPending ? "schedule" : isSelected ? "check_circle" : "shopping_bag"}</span>
-            ${isSold ? "Item Sold" : isPending ? "Sale Pending" : isSelected ? "✓ Added To List" : "Add To My List"}
+            ${isSold ? escapeHtml(t("itemSold")) : isPending ? escapeHtml(t("salePending")) : isSelected ? escapeHtml(t("addedToWishlist")) : escapeHtml(t("addToWishlist"))}
           </button>
-          ${isSelected ? `<p class="text-center text-sm text-on-surface-variant mt-4 font-medium">This item is in your list. Tap again to remove.</p>` : ""}
+          ${isSelected ? `<p class="text-center text-sm text-on-surface-variant mt-4 font-medium">${escapeHtml(t("inListHint"))}</p>` : ""}
         </div>
       </div>
     </div>
@@ -413,6 +555,11 @@ function renderDrawer() {
   const countEl = document.getElementById("drawer-count");
   const listEl = document.getElementById("drawer-list");
   const totalEl = document.getElementById("drawer-total");
+  const labelEl = document.getElementById("drawer-label-text");
+  const copyBtnLabel = document.getElementById("send-list-btn-label");
+
+  if (labelEl) labelEl.textContent = t("itemsSelected");
+  if (copyBtnLabel) copyBtnLabel.textContent = t("copyListBtn");
 
   const items = [...selectedIds]
     .map((id) => ALL_FUNKOS.find((f) => f.id === id))
@@ -454,7 +601,7 @@ function renderDrawer() {
         <p class="text-[10px] font-mono text-white/50 uppercase tracking-widest">${escapeHtml(f.series)}</p>
       </div>
       <div class="text-sm font-mono font-bold text-coral-vibrant">${CURRENCY}${f.price.toFixed(2)}</div>
-      <button class="w-8 h-8 flex items-center justify-center text-white/40 hover:text-error transition-colors" data-id="${escapeAttr(f.id)}" aria-label="Remove item">
+      <button class="w-8 h-8 flex items-center justify-center text-white/40 hover:text-error transition-colors" data-id="${escapeAttr(f.id)}" aria-label="${escapeAttr(t("removeItem"))}">
         <span class="material-symbols-outlined text-lg">close</span>
       </button>
     </li>
@@ -497,11 +644,9 @@ function setupSendButton() {
 
       try {
         await navigator.clipboard.writeText(text);
-        showToast("List copied! Paste it wherever you'd like to send it.");
+        showToast(t("toastCopied"));
       } catch {
-        showToast(
-          "Couldn't copy automatically — please copy the list manually.",
-        );
+        showToast(t("toastCopyFailed"));
       }
     });
 }
@@ -519,9 +664,9 @@ function buildSummaryText() {
   const total = items.reduce((sum, f) => sum + f.price, 0);
 
   return [
-    // "📦 Funko List:",
+    t("summaryHeader"),
     ...lines,
-    `Total: ${CURRENCY}${total.toFixed(2)}`,
+    `${t("summaryTotal")} ${CURRENCY}${total.toFixed(2)}`,
   ].join("\n");
 }
 

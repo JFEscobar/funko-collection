@@ -96,6 +96,38 @@ body {
 }
 
 /* ============================================
+   LANGUAGE TOGGLE
+   ============================================ */
+.lang-switch {
+  display: flex;
+  border: 1px solid #e2e2ec;
+  border-radius: 999px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.lang-switch__btn {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.4rem 0.75rem;
+  background: transparent;
+  color: #57423b;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lang-switch__btn:hover {
+  background: #f3f3fd;
+}
+
+.lang-switch__btn.lang-switch__btn--active {
+  background: #FF7F50;
+  color: white;
+}
+
+/* ============================================
    DETAIL PHOTO — click/tap to zoom affordance
    ============================================ */
 .zoomable {

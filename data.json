@@ -837,16 +837,16 @@
   },
   {
     "id": "045",
-    "name": "",
-    "series": "",
-    "popNumber": "",
+    "name": "Batman Dawnbreaker - Hot Topic Exclusive",
+    "series": "Heroes",
+    "popNumber": "253",
     "images": [
-      "images/sonic_metallic_1.jpg",
-      "images/sonic_metallic_2.jpg",
-      "images/sonic_metallic_3.jpg",
-      "images/sonic_metallic_4.jpg",
-      "images/sonic_metallic_5.jpg",
-      "images/sonic_metallic_6.jpg"
+      "images/dawnbreaker_1.jpg",
+      "images/dawnbreaker_2.jpg",
+      "images/dawnbreaker_3.jpg",
+      "images/dawnbreaker_4.jpg",
+      "images/dawnbreaker_5.jpg",
+      "images/dawnbreaker_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -856,16 +856,16 @@
   },
   {
     "id": "046",
-    "name": "",
-    "series": "",
-    "popNumber": "",
+    "name": "Murder Machine - GITD/Chase - Hot Topic Exclusive",
+    "series": "Heroes",
+    "popNumber": "360",
     "images": [
-      "images/sonic_metallic_1.jpg",
-      "images/sonic_metallic_2.jpg",
-      "images/sonic_metallic_3.jpg",
-      "images/sonic_metallic_4.jpg",
-      "images/sonic_metallic_5.jpg",
-      "images/sonic_metallic_6.jpg"
+      "images/murder_machine_1.jpg",
+      "images/murder_machine_2.jpg",
+      "images/murder_machine_3.jpg",
+      "images/murder_machine_4.jpg",
+      "images/murder_machine_5.jpg",
+      "images/murder_machine_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -875,16 +875,16 @@
   },
   {
     "id": "047",
-    "name": "",
-    "series": "",
-    "popNumber": "",
+    "name": "Batman Merciless - Hot Topic Exclusive",
+    "series": "Heroes",
+    "popNumber": "313",
     "images": [
-      "images/sonic_metallic_1.jpg",
-      "images/sonic_metallic_2.jpg",
-      "images/sonic_metallic_3.jpg",
-      "images/sonic_metallic_4.jpg",
-      "images/sonic_metallic_5.jpg",
-      "images/sonic_metallic_6.jpg"
+      "images/merciless_1.jpg",
+      "images/merciless_2.jpg",
+      "images/merciless_3.jpg",
+      "images/merciless_4.jpg",
+      "images/merciless_5.jpg",
+      "images/merciless_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -894,16 +894,16 @@
   },
   {
     "id": "048",
-    "name": "",
-    "series": "",
-    "popNumber": "",
+    "name": "Batman Red Death - PX Exclusive ",
+    "series": "Heroes",
+    "popNumber": "283",
     "images": [
-      "images/sonic_metallic_1.jpg",
-      "images/sonic_metallic_2.jpg",
-      "images/sonic_metallic_3.jpg",
-      "images/sonic_metallic_4.jpg",
-      "images/sonic_metallic_5.jpg",
-      "images/sonic_metallic_6.jpg"
+      "images/red_death_1.jpg",
+      "images/red_death_2.jpg",
+      "images/red_death_3.jpg",
+      "images/red_death_4.jpg",
+      "images/red_death_5.jpg",
+      "images/red_death_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -913,16 +913,453 @@
   },
   {
     "id": "049",
-    "name": "",
-    "series": "",
-    "popNumber": "",
+    "name": "Batman Who Laughs - PX Exclusive",
+    "series": "Heroes",
+    "popNumber": "256",
     "images": [
-      "images/sonic_metallic_1.jpg",
-      "images/sonic_metallic_2.jpg",
-      "images/sonic_metallic_3.jpg",
-      "images/sonic_metallic_4.jpg",
-      "images/sonic_metallic_5.jpg",
-      "images/sonic_metallic_6.jpg"
+      "images/batman_who_laughs_1.jpg",
+      "images/batman_who_laughs_2.jpg",
+      "images/batman_who_laughs_3.jpg",
+      "images/batman_who_laughs_4.jpg",
+      "images/batman_who_laughs_5.jpg",
+      "images/batman_who_laughs_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "050",
+    "name": "Bulbasaur",
+    "series": "Games",
+    "popNumber": "453",
+    "images": [
+      "images/bulbasaur_1.jpg",
+      "images/bulbasaur_2.jpg",
+      "images/bulbasaur_3.jpg",
+      "images/bulbasaur_4.jpg",
+      "images/bulbasaur_5.jpg",
+      "images/bulbasaur_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "051",
+    "name": "Chamander",
+    "series": "Games",
+    "popNumber": "455",
+    "images": [
+      "images/charmander_1.jpg",
+      "images/charmander_2.jpg",
+      "images/charmander_3.jpg",
+      "images/charmander_4.jpg",
+      "images/charmander_5.jpg",
+      "images/charmander_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "052",
+    "name": "Shenron - Jade - Special Edition",
+    "series": "Animation",
+    "popNumber": "265",
+    "images": [
+      "images/jade_shenron_1.jpg",
+      "images/jade_shenron_2.jpg",
+      "images/jade_shenron_3.jpg",
+      "images/jade_shenron_4.jpg",
+      "images/jade_shenron_5.jpg",
+      "images/jade_shenron_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "053",
+    "name": "Korra - GTID/Chase - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "801",
+    "images": [
+      "images/korra_chase_1.jpg",
+      "images/korra_chase_2.jpg",
+      "images/korra_chase_3.jpg",
+      "images/korra_chase_4.jpg",
+      "images/korra_chase_5.jpg",
+      "images/korra_chase_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "054",
+    "name": "Aang - Air Scooter - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "541",
+    "images": [
+      "images/aang_airscooter_1.jpg",
+      "images/aang_airscooter_2.jpg",
+      "images/aang_airscooter_3.jpg",
+      "images/aang_airscooter_4.jpg",
+      "images/aang_airscooter_5.jpg",
+      "images/aang_airscooter_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "055",
+    "name": "Kirara - Flocked - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "938",
+    "images": [
+      "images/kirara_flocked_1.jpg",
+      "images/kirara_flocked_2.jpg",
+      "images/kirara_flocked_3.jpg",
+      "images/kirara_flocked_4.jpg",
+      "images/kirara_flocked_5.jpg",
+      "images/kirara_flocked_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "056",
+    "name": "Joker - Blacklight - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "370",
+    "images": [
+      "images/joker_blacklight_1.jpg",
+      "images/joker_blacklight_2.jpg",
+      "images/joker_blacklight_3.jpg",
+      "images/joker_blacklight_4.jpg",
+      "images/joker_blacklight_5.jpg",
+      "images/joker_blacklight_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "057",
+    "name": "This is fine dog - Entertainment Earth Exclusive",
+    "series": "Icons",
+    "popNumber": "56",
+    "images": [
+      "images/this_is_fine_dog_1.jpg",
+      "images/this_is_fine_dog_2.jpg",
+      "images/this_is_fine_dog_3.jpg",
+      "images/this_is_fine_dog_4.jpg",
+      "images/this_is_fine_dog_5.jpg",
+      "images/this_is_fine_dog_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "058",
+    "name": "Grumpy Cat - Flocked - Entertainment Earth Exclusive",
+    "series": "Icons",
+    "popNumber": "60",
+    "images": [
+      "images/grumpy_cat_flocked_1.jpg",
+      "images/grumpy_cat_flocked_2.jpg",
+      "images/grumpy_cat_flocked_3.jpg",
+      "images/grumpy_cat_flocked_4.jpg",
+      "images/grumpy_cat_flocked_5.jpg",
+      "images/grumpy_cat_flocked_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "059",
+    "name": "Chester Cheetah - GTID - Box Lunch Exclusive",
+    "series": "Icons",
+    "popNumber": "117",
+    "images": [
+      "images/chester_cheetah_1.jpg",
+      "images/chester_cheetah_2.jpg",
+      "images/chester_cheetah_3.jpg",
+      "images/chester_cheetah_4.jpg",
+      "images/chester_cheetah_5.jpg",
+      "images/chester_cheetah_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "060",
+    "name": "Energizer Bunny - Flocked - Funko Shop Exclusive",
+    "series": "Ad Icons",
+    "popNumber": "73",
+    "images": [
+      "images/energizer_bunny_1.jpg",
+      "images/energizer_bunny_2.jpg",
+      "images/energizer_bunny_3.jpg",
+      "images/energizer_bunny_4.jpg",
+      "images/energizer_bunny_5.jpg",
+      "images/energizer_bunny_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "061",
+    "name": "Patronus - Wizarding World Exclusive",
+    "series": "Harry Potter",
+    "popNumber": "104",
+    "images": [
+      "images/patronus_1.jpg",
+      "images/patronus_2.jpg",
+      "images/patronus_3.jpg",
+      "images/patronus_4.jpg",
+      "images/patronus_5.jpg",
+      "images/patronus_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "062",
+    "name": "Aloy - Shadow Stalwart - PlayStation Exclusive",
+    "series": "Gamers",
+    "popNumber": "635",
+    "images": [
+      "images/aloy_shadow_stalwart_1.jpg",
+      "images/aloy_shadow_stalwart_2.jpg",
+      "images/aloy_shadow_stalwart_3.jpg",
+      "images/aloy_shadow_stalwart_4.jpg",
+      "images/aloy_shadow_stalwart_5.jpg",
+      "images/aloy_shadow_stalwart_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "063",
+    "name": "Sanji",
+    "series": "One Piece",
+    "popNumber": "398",
+    "images": [
+      "images/sanji_1.jpg",
+      "images/sanji_2.jpg",
+      "images/sanji_3.jpg",
+      "images/sanji_4.jpg",
+      "images/sanji_5.jpg",
+      "images/sanji_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "064",
+    "name": "Usopp",
+    "series": "One Piece",
+    "popNumber": "401",
+    "images": [
+      "images/usopp_1.jpg",
+      "images/usopp_2.jpg",
+      "images/usopp_3.jpg",
+      "images/usopp_4.jpg",
+      "images/usopp_5.jpg",
+      "images/usopp_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "065",
+    "name": "Portas D Ace",
+    "series": "One Piece",
+    "popNumber": "100",
+    "images": [
+      "images/portas_d_ace_1.jpg",
+      "images/portas_d_ace_2.jpg",
+      "images/portas_d_ace_3.jpg",
+      "images/portas_d_ace_4.jpg",
+      "images/portas_d_ace_5.jpg",
+      "images/portas_d_ace_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "066",
+    "name": "The Child",
+    "series": "Star Wars",
+    "popNumber": "368",
+    "images": [
+      "images/the_child_1.jpg",
+      "images/the_child_2.jpg",
+      "images/the_child_3.jpg",
+      "images/the_child_4.jpg",
+      "images/the_child_5.jpg",
+      "images/the_child_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "067",
+    "name": "The Mandalorian - GITD - Funko Club Inside Exclusive",
+    "series": "Star Wars",
+    "popNumber": "408",
+    "images": [
+      "images/mandalorian_GITD_1.jpg",
+      "images/mandalorian_GITD_2.jpg",
+      "images/mandalorian_GITD_3.jpg",
+      "images/mandalorian_GITD_4.jpg",
+      "images/mandalorian_GITD_5.jpg",
+      "images/mandalorian_GITD_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "068",
+    "name": "Maleficent As The Dragon - GTID - Box Lunch Exclusive",
+    "series": "Disney",
+    "popNumber": "720",
+    "images": [
+      "images/maleficent_dragon_1.jpg",
+      "images/maleficent_dragon_2.jpg",
+      "images/maleficent_dragon_3.jpg",
+      "images/maleficent_dragon_4.jpg",
+      "images/maleficent_dragon_5.jpg",
+      "images/maleficent_dragon_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "069",
+    "name": "Sasuke",
+    "series": "Naruto",
+    "popNumber": "72",
+    "images": [
+      "images/sasuke_1.jpg",
+      "images/sasuke_2.jpg",
+      "images/sasuke_3.jpg",
+      "images/sasuke_4.jpg",
+      "images/sasuke_5.jpg",
+      "images/sasuke_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "069",
+    "name": "Sasuke",
+    "series": "Naruto",
+    "popNumber": "72",
+    "images": [
+      "images/sasuke_1.jpg",
+      "images/sasuke_2.jpg",
+      "images/sasuke_3.jpg",
+      "images/sasuke_4.jpg",
+      "images/sasuke_5.jpg",
+      "images/sasuke_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "070",
+    "name": "Kakashi ANBU - AAA Exclusive",
+    "series": "Naruto",
+    "popNumber": "994",
+    "images": [
+      "images/kakashi_anbu_1.jpg",
+      "images/kakashi_anbu_2.jpg",
+      "images/kakashi_anbu_3.jpg",
+      "images/kakashi_anbu_4.jpg",
+      "images/kakashi_anbu_5.jpg",
+      "images/kakashi_anbu_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "071",
+    "name": "Kakashi ANBU - Chase - AAA Exclusive",
+    "series": "Naruto",
+    "popNumber": "994",
+    "images": [
+      "images/kakashi_anbu_chase_1.jpg",
+      "images/kakashi_anbu_chase_2.jpg",
+      "images/kakashi_anbu_chase_3.jpg",
+      "images/kakashi_anbu_chase_4.jpg",
+      "images/kakashi_anbu_chase_5.jpg",
+      "images/kakashi_anbu_chase_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
