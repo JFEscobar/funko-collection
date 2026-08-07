@@ -8,7 +8,7 @@ const CURRENCY = "$";
    ===================================================================== */
 const TRANSLATIONS = {
   fr: {
-    pageTitle: "The Shelf — Catalogue de collection Pop",
+    pageTitle: "Kevin — Catalogue de collection Funko Pop",
     headerSubtitle: "Catalogue de collection Pop",
     headerTagline: '"Choisissez ce que vous aimez. Copiez la liste. Simple."',
     loadError:
@@ -52,7 +52,7 @@ const TRANSLATIONS = {
     noPhotoYet: "Pas de photo",
   },
   en: {
-    pageTitle: "The Shelf — Funko Pop Collection",
+    pageTitle: "Kevin — Funko Pop Collection",
     headerSubtitle: "Pop Collector Catalog",
     headerTagline: '"Pick what you like. Copy the list. Easy."',
     loadError:
@@ -254,6 +254,8 @@ function renderGrid() {
   const grid = document.getElementById("grid");
   if (!grid) return;
 
+  const STATUS_ORDER = { available: 0, pending: 1, sold: 2 };
+
   const filtered = ALL_FUNKOS.filter((f) => {
     if (filters.availableOnly && f.status !== "available") return false;
     if (filters.series !== "all" && f.series !== filters.series) return false;
@@ -264,6 +266,10 @@ function renderGrid() {
       return false;
     return true;
   });
+
+  filtered.sort(
+    (a, b) => (STATUS_ORDER[a.status] ?? 99) - (STATUS_ORDER[b.status] ?? 99),
+  );
 
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="col-span-full py-20 text-center border-2 border-dashed border-surface-container-highest rounded-2xl">
