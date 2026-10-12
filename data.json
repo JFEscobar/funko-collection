@@ -1,206 +1,16 @@
 [
   {
-    "id": "001",
-    "name": "Bartman",
-    "series": "Simpsons",
-    "popNumber": "503",
+    "id": "060",
+    "name": "Energizer Bunny - Flocked - Funko Shop Exclusive",
+    "series": "Ad Icons",
+    "popNumber": "73",
     "images": [
-      "images/bartman_1.jpg",
-      "images/bartman_2.jpg",
-      "images/bartman_3.jpg",
-      "images/bartman_4.jpg",
-      "images/bartman_5.jpg",
-      "images/bartman_6.jpg"
-    ],
-    "price": 15.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-06-01"
-  },
-  {
-    "id": "002",
-    "name": "Luffy Gear Four",
-    "series": "One Piece",
-    "popNumber": "926",
-    "images": [
-      "images/luffy_gear4_1.jpg",
-      "images/luffy_gear4_2.jpg",
-      "images/luffy_gear4_3.jpg",
-      "images/luffy_gear4_4.jpg",
-      "images/luffy_gear4_5.jpg",
-      "images/luffy_gear4_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-05-20"
-  },
-  {
-    "id": "003",
-    "name": "Mewtow (Flocked)",
-    "series": "Pokemon",
-    "popNumber": "581",
-    "images": [
-      "images/mewtwo_1.jpg",
-      "images/mewtwo_2.jpg",
-      "images/mewtwo_3.jpg",
-      "images/mewtwo_4.jpg",
-      "images/mewtwo_5.jpg",
-      "images/mewtwo_6.jpg"
-    ],
-    "price": 12.5,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "Come with protector case.",
-    "dateAdded": "2026-05-20"
-  },
-  {
-    "id": "004",
-    "name": "Muhammad Ali",
-    "series": "Sports Lengends",
-    "popNumber": "01",
-    "images": [
-      "images/muhammad_ali_1.jpg",
-      "images/muhammad_ali_2.jpg",
-      "images/muhammad_ali_3.jpg",
-      "images/muhammad_ali_4.jpg",
-      "images/muhammad_ali_5.jpg",
-      "images/muhammad_ali_6.jpg"
-    ],
-    "price": 12.5,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "Come with protector case.",
-    "dateAdded": "2026-05-20"
-  },
-  {
-    "id": "005",
-    "name": "Trafalgar Law",
-    "series": "One Piece",
-    "popNumber": "101",
-    "images": [
-      "images/trafalgar_1.jpg",
-      "images/trafalgar_2.jpg",
-      "images/trafalgar_3.jpg",
-      "images/trafalgar_4.jpg",
-      "images/trafalgar_5.jpg",
-      "images/trafalgar_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "pending",
-    "notes": "",
-    "dateAdded": "2026-05-20"
-  },
-  {
-    "id": "006",
-    "name": "Zuko",
-    "series": "Avatar: The Last Airbender",
-    "popNumber": "838",
-    "images": [
-      "images/zuko_1.jpg",
-      "images/zuko_2.jpg",
-      "images/zuko_3.jpg",
-      "images/zuko_4.jpg",
-      "images/zuko_5.jpg",
-      "images/zuko_6.jpg"
-    ],
-    "price": 20.0,
-    "condition": "mint box",
-    "status": "sold",
-    "notes": "Small dent on the top corner of the box, figure itself is unaffected.",
-    "dateAdded": "2026-06-01"
-  },
-  {
-    "id": "007",
-    "name": "Georges St-Pierre",
-    "series": "UFC",
-    "popNumber": "09",
-    "images": [
-      "images/georges_st_1.jpg",
-      "images/georges_st_2.jpg",
-      "images/georges_st_3.jpg",
-      "images/georges_st_4.jpg",
-      "images/georges_st_5.jpg",
-      "images/georges_st_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "008",
-    "name": "Batman (Blacklight)",
-    "series": "Batman Animated Series",
-    "popNumber": "369",
-    "images": [
-      "images/batman_blacklight_1.jpg",
-      "images/batman_blacklight_2.jpg",
-      "images/batman_blacklight_3.jpg",
-      "images/batman_blacklight_4.jpg",
-      "images/batman_blacklight_5.jpg",
-      "images/batman_blacklight_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "009",
-    "name": "Boba Fett (Smugler's Bounty)",
-    "series": "Star Wars",
-    "popNumber": "369",
-    "images": [
-      "images/bobafett_smuggler_1.jpg",
-      "images/bobafett_smuggler_2.jpg",
-      "images/bobafett_smuggler_3.jpg",
-      "images/bobafett_smuggler_4.jpg",
-      "images/bobafett_smuggler_5.jpg",
-      "images/bobafett_smuggler_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "010",
-    "name": "Michael Jordan",
-    "series": "Basketball",
-    "popNumber": "54",
-    "images": [
-      "images/michael_jordan_air_1.jpg",
-      "images/michael_jordan_air_2.jpg",
-      "images/michael_jordan_air_3.jpg",
-      "images/michael_jordan_air_4.jpg",
-      "images/michael_jordan_air_5.jpg",
-      "images/michael_jordan_air_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "011",
-    "name": "Babe Ruth",
-    "series": "Baseball",
-    "popNumber": "02",
-    "images": [
-      "images/babe_ruth_1.jpg",
-      "images/babe_ruth_2.jpg",
-      "images/babe_ruth_3.jpg",
-      "images/babe_ruth_4.jpg",
-      "images/babe_ruth_5.jpg",
-      "images/babe_ruth_6.jpg"
+      "images/energizer_bunny_1.jpg",
+      "images/energizer_bunny_2.jpg",
+      "images/energizer_bunny_3.jpg",
+      "images/energizer_bunny_4.jpg",
+      "images/energizer_bunny_5.jpg",
+      "images/energizer_bunny_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -228,17 +38,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "013",
-    "name": "Radioactive Man",
-    "series": "Simpsons",
-    "popNumber": "496",
+    "id": "054",
+    "name": "Aang - Air Scooter - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "541",
     "images": [
-      "images/radioactive_man_1.jpg",
-      "images/radioactive_man_2.jpg",
-      "images/radioactive_man_3.jpg",
-      "images/radioactive_man_4.jpg",
-      "images/radioactive_man_5.jpg",
-      "images/radioactive_man_6.jpg"
+      "images/aang_airscooter_1.jpg",
+      "images/aang_airscooter_2.jpg",
+      "images/aang_airscooter_3.jpg",
+      "images/aang_airscooter_4.jpg",
+      "images/aang_airscooter_5.jpg",
+      "images/aang_airscooter_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -247,17 +57,36 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "014",
-    "name": "Star Sapphire Wonder Woman",
-    "series": "Heroes",
-    "popNumber": "61",
+    "id": "056",
+    "name": "Joker - Blacklight - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "370",
     "images": [
-      "images/star_sapphire_ww_1.jpg",
-      "images/star_sapphire_ww_2.jpg",
-      "images/star_sapphire_ww_3.jpg",
-      "images/star_sapphire_ww_4.jpg",
-      "images/star_sapphire_ww_5.jpg",
-      "images/star_sapphire_ww_6.jpg"
+      "images/joker_blacklight_1.jpg",
+      "images/joker_blacklight_2.jpg",
+      "images/joker_blacklight_3.jpg",
+      "images/joker_blacklight_4.jpg",
+      "images/joker_blacklight_5.jpg",
+      "images/joker_blacklight_6.jpg"
+    ],
+    "price": 25.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "073",
+    "name": "Katsuki Bakugo - 2020 Summer Convention Exclusive",
+    "series": "Animation",
+    "popNumber": "803",
+    "images": [
+      "images/bakugo_2020_1.jpg",
+      "images/bakugo_2020_2.jpg",
+      "images/bakugo_2020_3.jpg",
+      "images/bakugo_2020_4.jpg",
+      "images/bakugo_2020_5.jpg",
+      "images/bakugo_2020_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -266,17 +95,36 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "015",
-    "name": "Carey Price",
-    "series": "Hockey",
-    "popNumber": "06",
+    "id": "055",
+    "name": "Kirara - Flocked - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "938",
     "images": [
-      "images/carey_price_1.jpg",
-      "images/carey_price_2.jpg",
-      "images/carey_price_3.jpg",
-      "images/carey_price_4.jpg",
-      "images/carey_price_5.jpg",
-      "images/carey_price_6.jpg"
+      "images/kirara_flocked_1.jpg",
+      "images/kirara_flocked_2.jpg",
+      "images/kirara_flocked_3.jpg",
+      "images/kirara_flocked_4.jpg",
+      "images/kirara_flocked_5.jpg",
+      "images/kirara_flocked_6.jpg"
+    ],
+    "price": 40.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "053",
+    "name": "Korra - GTID/Chase - Hot Topic Exclusive",
+    "series": "Animation",
+    "popNumber": "801",
+    "images": [
+      "images/korra_chase_1.jpg",
+      "images/korra_chase_2.jpg",
+      "images/korra_chase_3.jpg",
+      "images/korra_chase_4.jpg",
+      "images/korra_chase_5.jpg",
+      "images/korra_chase_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -285,17 +133,74 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "016",
-    "name": "Wayne Gretzy (Chase)",
-    "series": "Hockey",
-    "popNumber": "32",
+    "id": "052",
+    "name": "Shenron - Jade - Special Edition",
+    "series": "Animation",
+    "popNumber": "265",
     "images": [
-      "images/wayne_gretzy_chase_1.jpg",
-      "images/wayne_gretzy_chase_2.jpg",
-      "images/wayne_gretzy_chase_3.jpg",
-      "images/wayne_gretzy_chase_4.jpg",
-      "images/wayne_gretzy_chase_5.jpg",
-      "images/wayne_gretzy_chase_6.jpg"
+      "images/jade_shenron_1.jpg",
+      "images/jade_shenron_2.jpg",
+      "images/jade_shenron_3.jpg",
+      "images/jade_shenron_4.jpg",
+      "images/jade_shenron_5.jpg",
+      "images/jade_shenron_6.jpg"
+    ],
+    "price": 65.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "006",
+    "name": "Zuko",
+    "series": "Avatar: The Last Airbender",
+    "popNumber": "838",
+    "images": [
+      "images/zuko_1.jpg",
+      "images/zuko_2.jpg",
+      "images/zuko_3.jpg",
+      "images/zuko_4.jpg",
+      "images/zuko_5.jpg",
+      "images/zuko_6.jpg"
+    ],
+    "price": 80.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Small dent on the top corner of the box, figure itself is unaffected.",
+    "dateAdded": "2026-06-01"
+  },
+  {
+    "id": "011",
+    "name": "Babe Ruth",
+    "series": "Baseball",
+    "popNumber": "02",
+    "images": [
+      "images/babe_ruth_1.jpg",
+      "images/babe_ruth_2.jpg",
+      "images/babe_ruth_3.jpg",
+      "images/babe_ruth_4.jpg",
+      "images/babe_ruth_5.jpg",
+      "images/babe_ruth_6.jpg"
+    ],
+    "price": 45.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "010",
+    "name": "Michael Jordan",
+    "series": "Basketball",
+    "popNumber": "54",
+    "images": [
+      "images/michael_jordan_air_1.jpg",
+      "images/michael_jordan_air_2.jpg",
+      "images/michael_jordan_air_3.jpg",
+      "images/michael_jordan_air_4.jpg",
+      "images/michael_jordan_air_5.jpg",
+      "images/michael_jordan_air_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -335,43 +240,24 @@
       "images/michael_jordan_air_unprotected_5.jpg",
       "images/michael_jordan_air_unprotected_6.jpg"
     ],
-    "price": 30.0,
+    "price": 25.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "019",
-    "name": "Alex Ovechkin",
-    "series": "Hockey",
-    "popNumber": "10",
+    "id": "077",
+    "name": "Michael Jordan - Footlocker Exclusive",
+    "series": "Basketball",
+    "popNumber": "54",
     "images": [
-      "images/alex_ovechkin_1.jpg",
-      "images/alex_ovechkin_2.jpg",
-      "images/alex_ovechkin_3.jpg",
-      "images/alex_ovechkin_4.jpg",
-      "images/alex_ovechkin_5.jpg",
-      "images/alex_ovechkin_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "020",
-    "name": "Connor McDavid",
-    "series": "Hockey",
-    "popNumber": "05",
-    "images": [
-      "images/connor_mcdavid_1.jpg",
-      "images/connor_mcdavid_2.jpg",
-      "images/connor_mcdavid_3.jpg",
-      "images/connor_mcdavid_4.jpg",
-      "images/connor_mcdavid_5.jpg",
-      "images/connor_mcdavid_6.jpg"
+      "images/michael_jordan_bronze_1.jpg",
+      "images/michael_jordan_bronze_2.jpg",
+      "images/michael_jordan_bronze_3.jpg",
+      "images/michael_jordan_bronze_4.jpg",
+      "images/michael_jordan_bronze_5.jpg",
+      "images/michael_jordan_bronze_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -380,17 +266,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "021",
-    "name": "Sidney Crosby",
-    "series": "Hockey",
-    "popNumber": "02",
+    "id": "008",
+    "name": "Batman (Blacklight)",
+    "series": "Batman Animated Series",
+    "popNumber": "369",
     "images": [
-      "images/sidney_crosby_1.jpg",
-      "images/sidney_crosby_2.jpg",
-      "images/sidney_crosby_3.jpg",
-      "images/sidney_crosby_4.jpg",
-      "images/sidney_crosby_5.jpg",
-      "images/sidney_crosby_6.jpg"
+      "images/batman_blacklight_1.jpg",
+      "images/batman_blacklight_2.jpg",
+      "images/batman_blacklight_3.jpg",
+      "images/batman_blacklight_4.jpg",
+      "images/batman_blacklight_5.jpg",
+      "images/batman_blacklight_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -399,17 +285,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "022",
-    "name": "Sidney Crosby Chase",
-    "series": "Hockey",
-    "popNumber": "31",
+    "id": "076",
+    "name": "Yellow Lantern Batman - GITD",
+    "series": "DC Series",
+    "popNumber": "220",
     "images": [
-      "images/sidney_crosby_chase_1.jpg",
-      "images/sidney_crosby_chase_2.jpg",
-      "images/sidney_crosby_chase_3.jpg",
-      "images/sidney_crosby_chase_4.jpg",
-      "images/sidney_crosby_chase_5.jpg",
-      "images/sidney_crosby_chase_6.jpg"
+      "images/batman_yellow_lantern_1.jpg",
+      "images/batman_yellow_lantern_2.jpg",
+      "images/batman_yellow_lantern_3.jpg",
+      "images/batman_yellow_lantern_4.jpg",
+      "images/batman_yellow_lantern_5.jpg",
+      "images/batman_yellow_lantern_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -418,342 +304,19 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "023",
-    "name": "Connor McDavid",
-    "series": "Hockey",
-    "popNumber": "05",
+    "id": "068",
+    "name": "Maleficent As The Dragon - GTID - Box Lunch Exclusive",
+    "series": "Disney",
+    "popNumber": "720",
     "images": [
-      "images/connor_mcdavid_second_1.jpg",
-      "images/connor_mcdavid_second_2.jpg",
-      "images/connor_mcdavid_second_3.jpg",
-      "images/connor_mcdavid_second_4.jpg",
-      "images/connor_mcdavid_second_5.jpg",
-      "images/connor_mcdavid_second_6.jpg"
+      "images/maleficent_dragon_1.jpg",
+      "images/maleficent_dragon_2.jpg",
+      "images/maleficent_dragon_3.jpg",
+      "images/maleficent_dragon_4.jpg",
+      "images/maleficent_dragon_5.jpg",
+      "images/maleficent_dragon_6.jpg"
     ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "024",
-    "name": "Jonathan Toews",
-    "series": "Hockey",
-    "popNumber": "09",
-    "images": [
-      "images/jonathan_toews_1.jpg",
-      "images/jonathan_toews_2.jpg",
-      "images/jonathan_toews_3.jpg",
-      "images/jonathan_toews_4.jpg",
-      "images/jonathan_toews_5.jpg",
-      "images/jonathan_toews_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "025",
-    "name": "Georges St-Pierre",
-    "series": "UFC",
-    "popNumber": "09",
-    "images": [
-      "images/georges_st_second_1.jpg",
-      "images/georges_st_second_2.jpg",
-      "images/georges_st_second_3.jpg",
-      "images/georges_st_second_4.jpg",
-      "images/georges_st_second_5.jpg",
-      "images/georges_st_second_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "026",
-    "name": "Tony Tony Chopper",
-    "series": "One Piece",
-    "popNumber": "99",
-    "images": [
-      "images/tonytony_chooper_1.jpg",
-      "images/tonytony_chopper_2.jpg",
-      "images/tonytony_chopper_3.jpg",
-      "images/tonytony_chopper_4.jpg",
-      "images/tonytony_chopper_5.jpg",
-      "images/tonytony_chopper_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "027",
-    "name": "Muhammad Ali",
-    "series": "Sports Lengends",
-    "popNumber": "01",
-    "images": [
-      "images/muhammad_ali_second_1.jpg",
-      "images/muhammad_ali_second_2.jpg",
-      "images/muhammad_ali_second_3.jpg",
-      "images/muhammad_ali_second_4.jpg",
-      "images/muhammad_ali_second_5.jpg",
-      "images/muhammad_ali_second_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "028",
-    "name": "Elliot Alderson",
-    "series": "Mr. Robot",
-    "popNumber": "477",
-    "images": [
-      "images/elliot_alderson_chase_1.jpg",
-      "images/elliot_alderson_chase_2.jpg",
-      "images/elliot_alderson_chase_3.jpg",
-      "images/elliot_alderson_chase_4.jpg",
-      "images/elliot_alderson_chase_5.jpg",
-      "images/elliot_alderson_chase_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "029",
-    "name": "Elliot Masked",
-    "series": "Mr. Robot",
-    "popNumber": "482",
-    "images": [
-      "images/elliot_masked_1.jpg",
-      "images/elliot_masked_2.jpg",
-      "images/elliot_masked_3.jpg",
-      "images/elliot_masked_4.jpg",
-      "images/elliot_masked_5.jpg",
-      "images/elliot_masked_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "030",
-    "name": "Izuku Midoriya - FYE Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "603",
-    "images": [
-      "images/izuku_midoriya_metallic_1.jpg",
-      "images/izuku_midoriya_metallic_2.jpg",
-      "images/izuku_midoriya_metallic_3.jpg",
-      "images/izuku_midoriya_metallic_4.jpg",
-      "images/izuku_midoriya_metallic_5.jpg",
-      "images/izuku_midoriya_metallic_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "031",
-    "name": "Ochaco Uraraka",
-    "series": "My Hero Academia",
-    "popNumber": "887",
-    "images": [
-      "images/ochaco_uraraka_1.jpg",
-      "images/ochaco_uraraka_2.jpg",
-      "images/ochaco_uraraka_3.jpg",
-      "images/ochaco_uraraka_4.jpg",
-      "images/ochaco_uraraka_5.jpg",
-      "images/ochaco_uraraka_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "032",
-    "name": "Ochaco Uraraka - Chase",
-    "series": "My Hero Academia",
-    "popNumber": "887",
-    "images": [
-      "images/ochaco_uraraka_chase_1.jpg",
-      "images/ochaco_uraraka_chase_2.jpg",
-      "images/ochaco_uraraka_chase_3.jpg",
-      "images/ochaco_uraraka_chase_4.jpg",
-      "images/ochaco_uraraka_chase_5.jpg",
-      "images/ochaco_uraraka_chase_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "033",
-    "name": "Mr Compress",
-    "series": "My Hero Academia",
-    "popNumber": "820",
-    "images": [
-      "images/mr_compress_1.jpg",
-      "images/mr_compress_2.jpg",
-      "images/mr_compress_3.jpg",
-      "images/mr_compress_4.jpg",
-      "images/mr_compress_5.jpg",
-      "images/mr_compress_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "034",
-    "name": "Deku - Entertainment Earth Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "596",
-    "images": [
-      "images/deku_glow_in_the_dark_1.jpg",
-      "images/deku_glow_in_the_dark_2.jpg",
-      "images/deku_glow_in_the_dark_3.jpg",
-      "images/deku_glow_in_the_dark_4.jpg",
-      "images/deku_glow_in_the_dark_5.jpg",
-      "images/deku_glow_in_the_dark_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "Glow in the dark",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "035",
-    "name": "Fumikage Tokoyami - Gamestop",
-    "series": "My Hero Academia",
-    "popNumber": "607",
-    "images": [
-      "images/fumikage_tokoyami_metallic_1.jpg",
-      "images/fumikage_tokoyami_metallic_2.jpg",
-      "images/fumikage_tokoyami_metallic_3.jpg",
-      "images/fumikage_tokoyami_metallic_4.jpg",
-      "images/fumikage_tokoyami_metallic_5.jpg",
-      "images/fumikage_tokoyami_metallic_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "036",
-    "name": "All Might",
-    "series": "My Hero Academia",
-    "popNumber": "248",
-    "images": [
-      "images/all_might_1.jpg",
-      "images/all_might_2.jpg",
-      "images/all_might_3.jpg",
-      "images/all_might_4.jpg",
-      "images/all_might_5.jpg",
-      "images/all_might_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "037",
-    "name": "Silver Age All Might - Barnes & Noble Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "608",
-    "images": [
-      "images/silver_age_all_might_1.jpg",
-      "images/silver_age_all_might_2.jpg",
-      "images/silver_age_all_might_3.jpg",
-      "images/silver_age_all_might_4.jpg",
-      "images/silver_age_all_might_5.jpg",
-      "images/silver_age_all_might_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "038",
-    "name": "All Might - Funimation Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "248",
-    "images": [
-      "images/all_might_glow_in_the_dark_1.jpg",
-      "images/all_might_glow_in_the_dark_2.jpg",
-      "images/all_might_glow_in_the_dark_3.jpg",
-      "images/all_might_glow_in_the_dark_4.jpg",
-      "images/all_might_glow_in_the_dark_5.jpg",
-      "images/all_might_glow_in_the_dark_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "Glow in the dark",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "039",
-    "name": "All For One",
-    "series": "My Hero Academia",
-    "popNumber": "647",
-    "images": [
-      "images/all_for_one_1.jpg",
-      "images/all_for_one_2.jpg",
-      "images/all_for_one_3.jpg",
-      "images/all_for_one_4.jpg",
-      "images/all_for_one_5.jpg",
-      "images/all_for_one_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "040",
-    "name": "All Might (Weakened) - Box Lunch Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "648",
-    "images": [
-      "images/all_might_weakened_1.jpg",
-      "images/all_might_weakened_2.jpg",
-      "images/all_might_weakened_3.jpg",
-      "images/all_might_weakened_4.jpg",
-      "images/all_might_weakened_5.jpg",
-      "images/all_might_weakened_6.jpg"
-    ],
-    "price": 30.0,
+    "price": 60.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
@@ -772,24 +335,24 @@
       "images/maleficent_chase_5.jpg",
       "images/maleficent_chase_6.jpg"
     ],
-    "price": 30.0,
+    "price": 50.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "042",
-    "name": "Dabi - Funko Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "637",
+    "id": "062",
+    "name": "Aloy - Shadow Stalwart - PlayStation Exclusive",
+    "series": "Gamers",
+    "popNumber": "635",
     "images": [
-      "images/dabi_limited_edition_1.jpg",
-      "images/dabi_limited_edition_2.jpg",
-      "images/dabi_limited_edition_3.jpg",
-      "images/dabi_limited_edition_4.jpg",
-      "images/dabi_limited_edition_5.jpg",
-      "images/dabi_limited_edition_6.jpg"
+      "images/aloy_shadow_stalwart_1.jpg",
+      "images/aloy_shadow_stalwart_2.jpg",
+      "images/aloy_shadow_stalwart_3.jpg",
+      "images/aloy_shadow_stalwart_4.jpg",
+      "images/aloy_shadow_stalwart_5.jpg",
+      "images/aloy_shadow_stalwart_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -798,36 +361,55 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "043",
-    "name": "Kakashi Hatake (Lightning Blade) - EB Games Exclusive",
-    "series": "Naruto",
-    "popNumber": "822",
+    "id": "050",
+    "name": "Bulbasaur",
+    "series": "Games",
+    "popNumber": "453",
     "images": [
-      "images/kakashi_lightning_blade_1.jpg",
-      "images/kakashi_lightning_blade_2.jpg",
-      "images/kakashi_lightning_blade_3.jpg",
-      "images/kakashi_lightning_blade_4.jpg",
-      "images/kakashi_lightning_blade_5.jpg",
-      "images/kakashi_lightning_blade_6.jpg"
+      "images/bulbasaur_1.jpg",
+      "images/bulbasaur_2.jpg",
+      "images/bulbasaur_3.jpg",
+      "images/bulbasaur_4.jpg",
+      "images/bulbasaur_5.jpg",
+      "images/bulbasaur_6.jpg"
     ],
-    "price": 30.0,
+    "price": 20.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "044",
-    "name": "Hero Killer Stain (Limited Edition) - Funko Exclusive",
-    "series": "My Hero Academia",
-    "popNumber": "636",
+    "id": "051",
+    "name": "Chamander",
+    "series": "Games",
+    "popNumber": "455",
     "images": [
-      "images/hero_killer_stain_limited_edition_1.jpg",
-      "images/hero_killer_stain_limited_edition_2.jpg",
-      "images/hero_killer_stain_limited_edition_3.jpg",
-      "images/hero_killer_stain_limited_edition_4.jpg",
-      "images/hero_killer_stain_limited_edition_5.jpg",
-      "images/hero_killer_stain_limited_edition_6.jpg"
+      "images/charmander_1.jpg",
+      "images/charmander_2.jpg",
+      "images/charmander_3.jpg",
+      "images/charmander_4.jpg",
+      "images/charmander_5.jpg",
+      "images/charmander_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "061",
+    "name": "Patronus - Wizarding World Exclusive",
+    "series": "Harry Potter",
+    "popNumber": "104",
+    "images": [
+      "images/patronus_1.jpg",
+      "images/patronus_2.jpg",
+      "images/patronus_3.jpg",
+      "images/patronus_4.jpg",
+      "images/patronus_5.jpg",
+      "images/patronus_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -848,26 +430,7 @@
       "images/dawnbreaker_5.jpg",
       "images/dawnbreaker_6.jpg"
     ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "046",
-    "name": "Murder Machine - GITD/Chase - Hot Topic Exclusive",
-    "series": "Heroes",
-    "popNumber": "360",
-    "images": [
-      "images/murder_machine_1.jpg",
-      "images/murder_machine_2.jpg",
-      "images/murder_machine_3.jpg",
-      "images/murder_machine_4.jpg",
-      "images/murder_machine_5.jpg",
-      "images/murder_machine_6.jpg"
-    ],
-    "price": 30.0,
+    "price": 25.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
@@ -886,7 +449,7 @@
       "images/merciless_5.jpg",
       "images/merciless_6.jpg"
     ],
-    "price": 30.0,
+    "price": 35.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
@@ -931,17 +494,55 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "050",
-    "name": "Bulbasaur",
-    "series": "Games",
-    "popNumber": "453",
+    "id": "046",
+    "name": "Murder Machine - GITD/Chase - Hot Topic Exclusive",
+    "series": "Heroes",
+    "popNumber": "360",
     "images": [
-      "images/bulbasaur_1.jpg",
-      "images/bulbasaur_2.jpg",
-      "images/bulbasaur_3.jpg",
-      "images/bulbasaur_4.jpg",
-      "images/bulbasaur_5.jpg",
-      "images/bulbasaur_6.jpg"
+      "images/murder_machine_1.jpg",
+      "images/murder_machine_2.jpg",
+      "images/murder_machine_3.jpg",
+      "images/murder_machine_4.jpg",
+      "images/murder_machine_5.jpg",
+      "images/murder_machine_6.jpg"
+    ],
+    "price": 40.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "014",
+    "name": "Star Sapphire Wonder Woman",
+    "series": "Heroes",
+    "popNumber": "61",
+    "images": [
+      "images/star_sapphire_ww_1.jpg",
+      "images/star_sapphire_ww_2.jpg",
+      "images/star_sapphire_ww_3.jpg",
+      "images/star_sapphire_ww_4.jpg",
+      "images/star_sapphire_ww_5.jpg",
+      "images/star_sapphire_ww_6.jpg"
+    ],
+    "price": 70.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "019",
+    "name": "Alex Ovechkin",
+    "series": "Hockey",
+    "popNumber": "10",
+    "images": [
+      "images/alex_ovechkin_1.jpg",
+      "images/alex_ovechkin_2.jpg",
+      "images/alex_ovechkin_3.jpg",
+      "images/alex_ovechkin_4.jpg",
+      "images/alex_ovechkin_5.jpg",
+      "images/alex_ovechkin_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -950,17 +551,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "051",
-    "name": "Chamander",
-    "series": "Games",
-    "popNumber": "455",
+    "id": "015",
+    "name": "Carey Price",
+    "series": "Hockey",
+    "popNumber": "06",
     "images": [
-      "images/charmander_1.jpg",
-      "images/charmander_2.jpg",
-      "images/charmander_3.jpg",
-      "images/charmander_4.jpg",
-      "images/charmander_5.jpg",
-      "images/charmander_6.jpg"
+      "images/carey_price_1.jpg",
+      "images/carey_price_2.jpg",
+      "images/carey_price_3.jpg",
+      "images/carey_price_4.jpg",
+      "images/carey_price_5.jpg",
+      "images/carey_price_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -969,133 +570,114 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "052",
-    "name": "Shenron - Jade - Special Edition",
-    "series": "Animation",
-    "popNumber": "265",
+    "id": "020",
+    "name": "Connor McDavid",
+    "series": "Hockey",
+    "popNumber": "05",
     "images": [
-      "images/jade_shenron_1.jpg",
-      "images/jade_shenron_2.jpg",
-      "images/jade_shenron_3.jpg",
-      "images/jade_shenron_4.jpg",
-      "images/jade_shenron_5.jpg",
-      "images/jade_shenron_6.jpg"
+      "images/connor_mcdavid_1.jpg",
+      "images/connor_mcdavid_2.jpg",
+      "images/connor_mcdavid_3.jpg",
+      "images/connor_mcdavid_4.jpg",
+      "images/connor_mcdavid_5.jpg",
+      "images/connor_mcdavid_6.jpg"
     ],
-    "price": 30.0,
+    "price": 100.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "053",
-    "name": "Korra - GTID/Chase - Hot Topic Exclusive",
-    "series": "Animation",
-    "popNumber": "801",
+    "id": "023",
+    "name": "Connor McDavid",
+    "series": "Hockey",
+    "popNumber": "05",
     "images": [
-      "images/korra_chase_1.jpg",
-      "images/korra_chase_2.jpg",
-      "images/korra_chase_3.jpg",
-      "images/korra_chase_4.jpg",
-      "images/korra_chase_5.jpg",
-      "images/korra_chase_6.jpg"
+      "images/connor_mcdavid_second_1.jpg",
+      "images/connor_mcdavid_second_2.jpg",
+      "images/connor_mcdavid_second_3.jpg",
+      "images/connor_mcdavid_second_4.jpg",
+      "images/connor_mcdavid_second_5.jpg",
+      "images/connor_mcdavid_second_6.jpg"
     ],
-    "price": 30.0,
+    "price": 100.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "054",
-    "name": "Aang - Air Scooter - Hot Topic Exclusive",
-    "series": "Animation",
-    "popNumber": "541",
+    "id": "024",
+    "name": "Jonathan Toews",
+    "series": "Hockey",
+    "popNumber": "09",
     "images": [
-      "images/aang_airscooter_1.jpg",
-      "images/aang_airscooter_2.jpg",
-      "images/aang_airscooter_3.jpg",
-      "images/aang_airscooter_4.jpg",
-      "images/aang_airscooter_5.jpg",
-      "images/aang_airscooter_6.jpg"
+      "images/jonathan_toews_1.jpg",
+      "images/jonathan_toews_2.jpg",
+      "images/jonathan_toews_3.jpg",
+      "images/jonathan_toews_4.jpg",
+      "images/jonathan_toews_5.jpg",
+      "images/jonathan_toews_6.jpg"
     ],
-    "price": 30.0,
+    "price": 50.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "055",
-    "name": "Kirara - Flocked - Hot Topic Exclusive",
-    "series": "Animation",
-    "popNumber": "938",
+    "id": "021",
+    "name": "Sidney Crosby",
+    "series": "Hockey",
+    "popNumber": "02",
     "images": [
-      "images/kirara_flocked_1.jpg",
-      "images/kirara_flocked_2.jpg",
-      "images/kirara_flocked_3.jpg",
-      "images/kirara_flocked_4.jpg",
-      "images/kirara_flocked_5.jpg",
-      "images/kirara_flocked_6.jpg"
+      "images/sidney_crosby_1.jpg",
+      "images/sidney_crosby_2.jpg",
+      "images/sidney_crosby_3.jpg",
+      "images/sidney_crosby_4.jpg",
+      "images/sidney_crosby_5.jpg",
+      "images/sidney_crosby_6.jpg"
     ],
-    "price": 30.0,
+    "price": 45.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "056",
-    "name": "Joker - Blacklight - Hot Topic Exclusive",
-    "series": "Animation",
-    "popNumber": "370",
+    "id": "022",
+    "name": "Sidney Crosby Chase",
+    "series": "Hockey",
+    "popNumber": "31",
     "images": [
-      "images/joker_blacklight_1.jpg",
-      "images/joker_blacklight_2.jpg",
-      "images/joker_blacklight_3.jpg",
-      "images/joker_blacklight_4.jpg",
-      "images/joker_blacklight_5.jpg",
-      "images/joker_blacklight_6.jpg"
+      "images/sidney_crosby_chase_1.jpg",
+      "images/sidney_crosby_chase_2.jpg",
+      "images/sidney_crosby_chase_3.jpg",
+      "images/sidney_crosby_chase_4.jpg",
+      "images/sidney_crosby_chase_5.jpg",
+      "images/sidney_crosby_chase_6.jpg"
     ],
-    "price": 30.0,
+    "price": 200.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "057",
-    "name": "This is fine dog - Entertainment Earth Exclusive",
-    "series": "Icons",
-    "popNumber": "56",
+    "id": "016",
+    "name": "Wayne Gretzy (Chase)",
+    "series": "Hockey",
+    "popNumber": "32",
     "images": [
-      "images/this_is_fine_dog_1.jpg",
-      "images/this_is_fine_dog_2.jpg",
-      "images/this_is_fine_dog_3.jpg",
-      "images/this_is_fine_dog_4.jpg",
-      "images/this_is_fine_dog_5.jpg",
-      "images/this_is_fine_dog_6.jpg"
+      "images/wayne_gretzy_chase_1.jpg",
+      "images/wayne_gretzy_chase_2.jpg",
+      "images/wayne_gretzy_chase_3.jpg",
+      "images/wayne_gretzy_chase_4.jpg",
+      "images/wayne_gretzy_chase_5.jpg",
+      "images/wayne_gretzy_chase_6.jpg"
     ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "058",
-    "name": "Grumpy Cat - Flocked - Entertainment Earth Exclusive",
-    "series": "Icons",
-    "popNumber": "60",
-    "images": [
-      "images/grumpy_cat_flocked_1.jpg",
-      "images/grumpy_cat_flocked_2.jpg",
-      "images/grumpy_cat_flocked_3.jpg",
-      "images/grumpy_cat_flocked_4.jpg",
-      "images/grumpy_cat_flocked_5.jpg",
-      "images/grumpy_cat_flocked_6.jpg"
-    ],
-    "price": 30.0,
+    "price": 150.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
@@ -1114,24 +696,100 @@
       "images/chester_cheetah_5.jpg",
       "images/chester_cheetah_6.jpg"
     ],
-    "price": 30.0,
+    "price": 35.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "060",
-    "name": "Energizer Bunny - Flocked - Funko Shop Exclusive",
-    "series": "Ad Icons",
-    "popNumber": "73",
+    "id": "058",
+    "name": "Grumpy Cat - Flocked - Entertainment Earth Exclusive",
+    "series": "Icons",
+    "popNumber": "60",
     "images": [
-      "images/energizer_bunny_1.jpg",
-      "images/energizer_bunny_2.jpg",
-      "images/energizer_bunny_3.jpg",
-      "images/energizer_bunny_4.jpg",
-      "images/energizer_bunny_5.jpg",
-      "images/energizer_bunny_6.jpg"
+      "images/grumpy_cat_flocked_1.jpg",
+      "images/grumpy_cat_flocked_2.jpg",
+      "images/grumpy_cat_flocked_3.jpg",
+      "images/grumpy_cat_flocked_4.jpg",
+      "images/grumpy_cat_flocked_5.jpg",
+      "images/grumpy_cat_flocked_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "057",
+    "name": "This is fine dog - Entertainment Earth Exclusive",
+    "series": "Icons",
+    "popNumber": "56",
+    "images": [
+      "images/this_is_fine_dog_1.jpg",
+      "images/this_is_fine_dog_2.jpg",
+      "images/this_is_fine_dog_3.jpg",
+      "images/this_is_fine_dog_4.jpg",
+      "images/this_is_fine_dog_5.jpg",
+      "images/this_is_fine_dog_6.jpg"
+    ],
+    "price": 25.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "028",
+    "name": "Elliot Alderson",
+    "series": "Mr. Robot",
+    "popNumber": "477",
+    "images": [
+      "images/elliot_alderson_chase_1.jpg",
+      "images/elliot_alderson_chase_2.jpg",
+      "images/elliot_alderson_chase_3.jpg",
+      "images/elliot_alderson_chase_4.jpg",
+      "images/elliot_alderson_chase_5.jpg",
+      "images/elliot_alderson_chase_6.jpg"
+    ],
+    "price": 35.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "029",
+    "name": "Elliot Masked",
+    "series": "Mr. Robot",
+    "popNumber": "482",
+    "images": [
+      "images/elliot_masked_1.jpg",
+      "images/elliot_masked_2.jpg",
+      "images/elliot_masked_3.jpg",
+      "images/elliot_masked_4.jpg",
+      "images/elliot_masked_5.jpg",
+      "images/elliot_masked_6.jpg"
+    ],
+    "price": 55.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "039",
+    "name": "All For One",
+    "series": "My Hero Academia",
+    "popNumber": "647",
+    "images": [
+      "images/all_for_one_1.jpg",
+      "images/all_for_one_2.jpg",
+      "images/all_for_one_3.jpg",
+      "images/all_for_one_4.jpg",
+      "images/all_for_one_5.jpg",
+      "images/all_for_one_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1140,17 +798,36 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "061",
-    "name": "Patronus - Wizarding World Exclusive",
-    "series": "Harry Potter",
-    "popNumber": "104",
+    "id": "036",
+    "name": "All Might",
+    "series": "My Hero Academia",
+    "popNumber": "248",
     "images": [
-      "images/patronus_1.jpg",
-      "images/patronus_2.jpg",
-      "images/patronus_3.jpg",
-      "images/patronus_4.jpg",
-      "images/patronus_5.jpg",
-      "images/patronus_6.jpg"
+      "images/all_might_1.jpg",
+      "images/all_might_2.jpg",
+      "images/all_might_3.jpg",
+      "images/all_might_4.jpg",
+      "images/all_might_5.jpg",
+      "images/all_might_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "040",
+    "name": "All Might (Weakened) - Box Lunch Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "648",
+    "images": [
+      "images/all_might_weakened_1.jpg",
+      "images/all_might_weakened_2.jpg",
+      "images/all_might_weakened_3.jpg",
+      "images/all_might_weakened_4.jpg",
+      "images/all_might_weakened_5.jpg",
+      "images/all_might_weakened_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1159,17 +836,74 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "062",
-    "name": "Aloy - Shadow Stalwart - PlayStation Exclusive",
-    "series": "Gamers",
-    "popNumber": "635",
+    "id": "038",
+    "name": "All Might - Funimation Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "248",
     "images": [
-      "images/aloy_shadow_stalwart_1.jpg",
-      "images/aloy_shadow_stalwart_2.jpg",
-      "images/aloy_shadow_stalwart_3.jpg",
-      "images/aloy_shadow_stalwart_4.jpg",
-      "images/aloy_shadow_stalwart_5.jpg",
-      "images/aloy_shadow_stalwart_6.jpg"
+      "images/all_might_glow_in_the_dark_1.jpg",
+      "images/all_might_glow_in_the_dark_2.jpg",
+      "images/all_might_glow_in_the_dark_3.jpg",
+      "images/all_might_glow_in_the_dark_4.jpg",
+      "images/all_might_glow_in_the_dark_5.jpg",
+      "images/all_might_glow_in_the_dark_6.jpg"
+    ],
+    "price": 70.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Glow in the dark",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "042",
+    "name": "Dabi - Funko Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "637",
+    "images": [
+      "images/dabi_limited_edition_1.jpg",
+      "images/dabi_limited_edition_2.jpg",
+      "images/dabi_limited_edition_3.jpg",
+      "images/dabi_limited_edition_4.jpg",
+      "images/dabi_limited_edition_5.jpg",
+      "images/dabi_limited_edition_6.jpg"
+    ],
+    "price": 50.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "034",
+    "name": "Deku - Entertainment Earth Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "596",
+    "images": [
+      "images/deku_glow_in_the_dark_1.jpg",
+      "images/deku_glow_in_the_dark_2.jpg",
+      "images/deku_glow_in_the_dark_3.jpg",
+      "images/deku_glow_in_the_dark_4.jpg",
+      "images/deku_glow_in_the_dark_5.jpg",
+      "images/deku_glow_in_the_dark_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Glow in the dark",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "072",
+    "name": "Deku - Hot Topic Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "564",
+    "images": [
+      "images/deku_hot_topic_1.jpg",
+      "images/deku_hot_topic_2.jpg",
+      "images/deku_hot_topic_3.jpg",
+      "images/deku_hot_topic_4.jpg",
+      "images/deku_hot_topic_5.jpg",
+      "images/deku_hot_topic_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1178,42 +912,289 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "063",
-    "name": "Sanji",
+    "id": "074",
+    "name": "Deku In Onesie - Eb Games Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "494",
+    "images": [
+      "images/deku_in_onesie_1.jpg",
+      "images/deku_in_onesie_2.jpg",
+      "images/deku_in_onesie_3.jpg",
+      "images/deku_in_onesie_4.jpg",
+      "images/deku_in_onesie_5.jpg",
+      "images/deku_in_onesie_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "075",
+    "name": "Endeavor - Eb Games Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "495",
+    "images": [
+      "images/endeavor_eb_games_1.jpg",
+      "images/endeavor_eb_games_2.jpg",
+      "images/endeavor_eb_games_3.jpg",
+      "images/endeavor_eb_games_4.jpg",
+      "images/endeavor_eb_games_5.jpg",
+      "images/endeavor_eb_games_6.jpg"
+    ],
+    "price": 25.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "035",
+    "name": "Fumikage Tokoyami - Gamestop",
+    "series": "My Hero Academia",
+    "popNumber": "607",
+    "images": [
+      "images/fumikage_tokoyami_metallic_1.jpg",
+      "images/fumikage_tokoyami_metallic_2.jpg",
+      "images/fumikage_tokoyami_metallic_3.jpg",
+      "images/fumikage_tokoyami_metallic_4.jpg",
+      "images/fumikage_tokoyami_metallic_5.jpg",
+      "images/fumikage_tokoyami_metallic_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "044",
+    "name": "Hero Killer Stain (Limited Edition) - Funko Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "636",
+    "images": [
+      "images/hero_killer_stain_limited_edition_1.jpg",
+      "images/hero_killer_stain_limited_edition_2.jpg",
+      "images/hero_killer_stain_limited_edition_3.jpg",
+      "images/hero_killer_stain_limited_edition_4.jpg",
+      "images/hero_killer_stain_limited_edition_5.jpg",
+      "images/hero_killer_stain_limited_edition_6.jpg"
+    ],
+    "price": 50.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "030",
+    "name": "Izuku Midoriya - FYE Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "603",
+    "images": [
+      "images/izuku_midoriya_metallic_1.jpg",
+      "images/izuku_midoriya_metallic_2.jpg",
+      "images/izuku_midoriya_metallic_3.jpg",
+      "images/izuku_midoriya_metallic_4.jpg",
+      "images/izuku_midoriya_metallic_5.jpg",
+      "images/izuku_midoriya_metallic_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "033",
+    "name": "Mr Compress",
+    "series": "My Hero Academia",
+    "popNumber": "820",
+    "images": [
+      "images/mr_compress_1.jpg",
+      "images/mr_compress_2.jpg",
+      "images/mr_compress_3.jpg",
+      "images/mr_compress_4.jpg",
+      "images/mr_compress_5.jpg",
+      "images/mr_compress_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "031",
+    "name": "Ochaco Uraraka",
+    "series": "My Hero Academia",
+    "popNumber": "887",
+    "images": [
+      "images/ochaco_uraraka_1.jpg",
+      "images/ochaco_uraraka_2.jpg",
+      "images/ochaco_uraraka_3.jpg",
+      "images/ochaco_uraraka_4.jpg",
+      "images/ochaco_uraraka_5.jpg",
+      "images/ochaco_uraraka_6.jpg"
+    ],
+    "price": 35.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "032",
+    "name": "Ochaco Uraraka - Chase",
+    "series": "My Hero Academia",
+    "popNumber": "887",
+    "images": [
+      "images/ochaco_uraraka_chase_1.jpg",
+      "images/ochaco_uraraka_chase_2.jpg",
+      "images/ochaco_uraraka_chase_3.jpg",
+      "images/ochaco_uraraka_chase_4.jpg",
+      "images/ochaco_uraraka_chase_5.jpg",
+      "images/ochaco_uraraka_chase_6.jpg"
+    ],
+    "price": 70.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "037",
+    "name": "Silver Age All Might - Barnes & Noble Exclusive",
+    "series": "My Hero Academia",
+    "popNumber": "608",
+    "images": [
+      "images/silver_age_all_might_1.jpg",
+      "images/silver_age_all_might_2.jpg",
+      "images/silver_age_all_might_3.jpg",
+      "images/silver_age_all_might_4.jpg",
+      "images/silver_age_all_might_5.jpg",
+      "images/silver_age_all_might_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "070",
+    "name": "Kakashi ANBU - AAA Exclusive",
+    "series": "Naruto",
+    "popNumber": "994",
+    "images": [
+      "images/kakashi_anbu_1.jpg",
+      "images/kakashi_anbu_2.jpg",
+      "images/kakashi_anbu_3.jpg",
+      "images/kakashi_anbu_4.jpg",
+      "images/kakashi_anbu_5.jpg",
+      "images/kakashi_anbu_6.jpg"
+    ],
+    "price": 35.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "071",
+    "name": "Kakashi ANBU - Chase - AAA Exclusive",
+    "series": "Naruto",
+    "popNumber": "994",
+    "images": [
+      "images/kakashi_anbu_chase_1.jpg",
+      "images/kakashi_anbu_chase_2.jpg",
+      "images/kakashi_anbu_chase_3.jpg",
+      "images/kakashi_anbu_chase_4.jpg",
+      "images/kakashi_anbu_chase_5.jpg",
+      "images/kakashi_anbu_chase_6.jpg"
+    ],
+    "price": 50.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "043",
+    "name": "Kakashi Hatake (Lightning Blade) - EB Games Exclusive",
+    "series": "Naruto",
+    "popNumber": "822",
+    "images": [
+      "images/kakashi_lightning_blade_1.jpg",
+      "images/kakashi_lightning_blade_2.jpg",
+      "images/kakashi_lightning_blade_3.jpg",
+      "images/kakashi_lightning_blade_4.jpg",
+      "images/kakashi_lightning_blade_5.jpg",
+      "images/kakashi_lightning_blade_6.jpg"
+    ],
+    "price": 40.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "078",
+    "name": "Pain (Almighty Push) - GITD - Chalice Collectibles Exclusive",
+    "series": "Naruto",
+    "popNumber": "944",
+    "images": [
+      "images/pain_push_1.jpg",
+      "images/pain_push_2.jpg",
+      "images/pain_push_3.jpg",
+      "images/pain_push_4.jpg",
+      "images/pain_push_5.jpg",
+      "images/pain_push_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "069",
+    "name": "Sasuke",
+    "series": "Naruto",
+    "popNumber": "72",
+    "images": [
+      "images/sasuke_1.jpg",
+      "images/sasuke_2.jpg",
+      "images/sasuke_3.jpg",
+      "images/sasuke_4.jpg",
+      "images/sasuke_5.jpg",
+      "images/sasuke_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "002",
+    "name": "Luffy Gear Four",
     "series": "One Piece",
-    "popNumber": "398",
+    "popNumber": "926",
     "images": [
-      "images/sanji_1.jpg",
-      "images/sanji_2.jpg",
-      "images/sanji_3.jpg",
-      "images/sanji_4.jpg",
-      "images/sanji_5.jpg",
-      "images/sanji_6.jpg"
+      "images/luffy_gear4_1.jpg",
+      "images/luffy_gear4_2.jpg",
+      "images/luffy_gear4_3.jpg",
+      "images/luffy_gear4_4.jpg",
+      "images/luffy_gear4_5.jpg",
+      "images/luffy_gear4_6.jpg"
     ],
-    "price": 30.0,
+    "price": 50.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "064",
-    "name": "Usopp",
-    "series": "One Piece",
-    "popNumber": "401",
-    "images": [
-      "images/usopp_1.jpg",
-      "images/usopp_2.jpg",
-      "images/usopp_3.jpg",
-      "images/usopp_4.jpg",
-      "images/usopp_5.jpg",
-      "images/usopp_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
+    "dateAdded": "2026-05-20"
   },
   {
     "id": "065",
@@ -1235,6 +1216,291 @@
     "dateAdded": "2026-07-28"
   },
   {
+    "id": "063",
+    "name": "Sanji",
+    "series": "One Piece",
+    "popNumber": "398",
+    "images": [
+      "images/sanji_1.jpg",
+      "images/sanji_2.jpg",
+      "images/sanji_3.jpg",
+      "images/sanji_4.jpg",
+      "images/sanji_5.jpg",
+      "images/sanji_6.jpg"
+    ],
+    "price": 80.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "026",
+    "name": "Tony Tony Chopper",
+    "series": "One Piece",
+    "popNumber": "99",
+    "images": [
+      "images/tonytony_chooper_1.jpg",
+      "images/tonytony_chopper_2.jpg",
+      "images/tonytony_chopper_3.jpg",
+      "images/tonytony_chopper_4.jpg",
+      "images/tonytony_chopper_5.jpg",
+      "images/tonytony_chopper_6.jpg"
+    ],
+    "price": 100.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "005",
+    "name": "Trafalgar Law",
+    "series": "One Piece",
+    "popNumber": "101",
+    "images": [
+      "images/trafalgar_1.jpg",
+      "images/trafalgar_2.jpg",
+      "images/trafalgar_3.jpg",
+      "images/trafalgar_4.jpg",
+      "images/trafalgar_5.jpg",
+      "images/trafalgar_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "064",
+    "name": "Usopp",
+    "series": "One Piece",
+    "popNumber": "401",
+    "images": [
+      "images/usopp_1.jpg",
+      "images/usopp_2.jpg",
+      "images/usopp_3.jpg",
+      "images/usopp_4.jpg",
+      "images/usopp_5.jpg",
+      "images/usopp_6.jpg"
+    ],
+    "price": 120.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "003",
+    "name": "Mewtow (Flocked)",
+    "series": "Pokemon",
+    "popNumber": "581",
+    "images": [
+      "images/mewtwo_1.jpg",
+      "images/mewtwo_2.jpg",
+      "images/mewtwo_3.jpg",
+      "images/mewtwo_4.jpg",
+      "images/mewtwo_5.jpg",
+      "images/mewtwo_6.jpg"
+    ],
+    "price": 90.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Come with protector case.",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "001",
+    "name": "Bartman",
+    "series": "Simpsons",
+    "popNumber": "503",
+    "images": [
+      "images/bartman_1.jpg",
+      "images/bartman_2.jpg",
+      "images/bartman_3.jpg",
+      "images/bartman_4.jpg",
+      "images/bartman_5.jpg",
+      "images/bartman_6.jpg"
+    ],
+    "price": 15.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-06-01"
+  },
+  {
+    "id": "013",
+    "name": "Radioactive Man",
+    "series": "Simpsons",
+    "popNumber": "496",
+    "images": [
+      "images/radioactive_man_1.jpg",
+      "images/radioactive_man_2.jpg",
+      "images/radioactive_man_3.jpg",
+      "images/radioactive_man_4.jpg",
+      "images/radioactive_man_5.jpg",
+      "images/radioactive_man_6.jpg"
+    ],
+    "price": 15.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "004",
+    "name": "Muhammad Ali",
+    "series": "Sports Lengends",
+    "popNumber": "01",
+    "images": [
+      "images/muhammad_ali_1.jpg",
+      "images/muhammad_ali_2.jpg",
+      "images/muhammad_ali_3.jpg",
+      "images/muhammad_ali_4.jpg",
+      "images/muhammad_ali_5.jpg",
+      "images/muhammad_ali_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Come with protector case.",
+    "dateAdded": "2026-05-20"
+  },
+  {
+    "id": "027",
+    "name": "Muhammad Ali",
+    "series": "Sports Lengends",
+    "popNumber": "01",
+    "images": [
+      "images/muhammad_ali_second_1.jpg",
+      "images/muhammad_ali_second_2.jpg",
+      "images/muhammad_ali_second_3.jpg",
+      "images/muhammad_ali_second_4.jpg",
+      "images/muhammad_ali_second_5.jpg",
+      "images/muhammad_ali_second_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "009",
+    "name": "Boba Fett (Smugler's Bounty)",
+    "series": "Star Wars",
+    "popNumber": "369",
+    "images": [
+      "images/bobafett_smuggler_1.jpg",
+      "images/bobafett_smuggler_2.jpg",
+      "images/bobafett_smuggler_3.jpg",
+      "images/bobafett_smuggler_4.jpg",
+      "images/bobafett_smuggler_5.jpg",
+      "images/bobafett_smuggler_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "079",
+    "name": "Kylo Ren",
+    "series": "Star Wars",
+    "popNumber": "105",
+    "images": [
+      "images/kylo_ren_1.jpg",
+      "images/kylo_ren_2.jpg",
+      "images/kylo_ren_3.jpg",
+      "images/kylo_ren_4.jpg",
+      "images/kylo_ren_5.jpg",
+      "images/kylo_ren_6.jpg"
+    ],
+    "price": 15.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "082",
+    "name": "Luke Skywalker",
+    "series": "Star Wars",
+    "popNumber": "106",
+    "images": [
+      "images/luke_old_1.jpg",
+      "images/luke_old_2.jpg",
+      "images/luke_old_3.jpg",
+      "images/luke_old_4.jpg",
+      "images/luke_old_5.jpg",
+      "images/luke_old_6.jpg"
+    ],
+    "price": 10.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "081",
+    "name": "Luke Skywalker - Bespin",
+    "series": "Star Wars",
+    "popNumber": "93",
+    "images": [
+      "images/luke_bespin_1.jpg",
+      "images/luke_bespin_2.jpg",
+      "images/luke_bespin_3.jpg",
+      "images/luke_bespin_4.jpg",
+      "images/luke_bespin_5.jpg",
+      "images/luke_bespin_6.jpg"
+    ],
+    "price": 10.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "080",
+    "name": "Luke Skywalker - Endor",
+    "series": "Star Wars",
+    "popNumber": "123",
+    "images": [
+      "images/luke_endor_1.jpg",
+      "images/luke_endor_2.jpg",
+      "images/luke_endor_3.jpg",
+      "images/luke_endor_4.jpg",
+      "images/luke_endor_5.jpg",
+      "images/luke_endor_6.jpg"
+    ],
+    "price": 15.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "083",
+    "name": "Maz Kanata",
+    "series": "Star Wars",
+    "popNumber": "108",
+    "images": [
+      "images/maz_1.jpg",
+      "images/maz_2.jpg",
+      "images/maz_3.jpg",
+      "images/maz_4.jpg",
+      "images/maz_5.jpg",
+      "images/maz_6.jpg"
+    ],
+    "price": 10.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
     "id": "066",
     "name": "The Child",
     "series": "Star Wars",
@@ -1247,7 +1513,7 @@
       "images/the_child_5.jpg",
       "images/the_child_6.jpg"
     ],
-    "price": 30.0,
+    "price": 10.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
@@ -1266,24 +1532,24 @@
       "images/mandalorian_GITD_5.jpg",
       "images/mandalorian_GITD_6.jpg"
     ],
-    "price": 30.0,
+    "price": 35.0,
     "condition": "mint box",
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "068",
-    "name": "Maleficent As The Dragon - GTID - Box Lunch Exclusive",
-    "series": "Disney",
-    "popNumber": "720",
+    "id": "007",
+    "name": "Georges St-Pierre",
+    "series": "UFC",
+    "popNumber": "09",
     "images": [
-      "images/maleficent_dragon_1.jpg",
-      "images/maleficent_dragon_2.jpg",
-      "images/maleficent_dragon_3.jpg",
-      "images/maleficent_dragon_4.jpg",
-      "images/maleficent_dragon_5.jpg",
-      "images/maleficent_dragon_6.jpg"
+      "images/georges_st_1.jpg",
+      "images/georges_st_2.jpg",
+      "images/georges_st_3.jpg",
+      "images/georges_st_4.jpg",
+      "images/georges_st_5.jpg",
+      "images/georges_st_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1292,17 +1558,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "069",
-    "name": "Sasuke",
-    "series": "Naruto",
-    "popNumber": "72",
+    "id": "025",
+    "name": "Georges St-Pierre",
+    "series": "UFC",
+    "popNumber": "09",
     "images": [
-      "images/sasuke_1.jpg",
-      "images/sasuke_2.jpg",
-      "images/sasuke_3.jpg",
-      "images/sasuke_4.jpg",
-      "images/sasuke_5.jpg",
-      "images/sasuke_6.jpg"
+      "images/georges_st_second_1.jpg",
+      "images/georges_st_second_2.jpg",
+      "images/georges_st_second_3.jpg",
+      "images/georges_st_second_4.jpg",
+      "images/georges_st_second_5.jpg",
+      "images/georges_st_second_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1311,17 +1577,17 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "069",
-    "name": "Sasuke",
-    "series": "Naruto",
-    "popNumber": "72",
+    "id": "084",
+    "name": "Eijiro Kirishima",
+    "series": "My Hero Academia",
+    "popNumber": "606",
     "images": [
-      "images/sasuke_1.jpg",
-      "images/sasuke_2.jpg",
-      "images/sasuke_3.jpg",
-      "images/sasuke_4.jpg",
-      "images/sasuke_5.jpg",
-      "images/sasuke_6.jpg"
+      "images/eijiro_1.jpg",
+      "images/eijiro_2.jpg",
+      "images/eijiro_3.jpg",
+      "images/eijiro_4.jpg",
+      "images/eijiro_5.jpg",
+      "images/eijiro_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1330,41 +1596,22 @@
     "dateAdded": "2026-07-28"
   },
   {
-    "id": "070",
-    "name": "Kakashi ANBU - AAA Exclusive",
-    "series": "Naruto",
-    "popNumber": "994",
+    "id": "085",
+    "name": "Batman - Special Edition",
+    "series": "Art Series",
+    "popNumber": "01",
     "images": [
-      "images/kakashi_anbu_1.jpg",
-      "images/kakashi_anbu_2.jpg",
-      "images/kakashi_anbu_3.jpg",
-      "images/kakashi_anbu_4.jpg",
-      "images/kakashi_anbu_5.jpg",
-      "images/kakashi_anbu_6.jpg"
+      "images/batman_art_1.jpg",
+      "images/batman_art_2.jpg",
+      "images/batman_art_3.jpg",
+      "images/batman_art_4.jpg",
+      "images/batman_art_5.jpg",
+      "images/batman_art_6.jpg"
     ],
-    "price": 30.0,
+    "price": 40.0,
     "condition": "mint box",
     "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "071",
-    "name": "Kakashi ANBU - Chase - AAA Exclusive",
-    "series": "Naruto",
-    "popNumber": "994",
-    "images": [
-      "images/kakashi_anbu_chase_1.jpg",
-      "images/kakashi_anbu_chase_2.jpg",
-      "images/kakashi_anbu_chase_3.jpg",
-      "images/kakashi_anbu_chase_4.jpg",
-      "images/kakashi_anbu_chase_5.jpg",
-      "images/kakashi_anbu_chase_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
+    "notes": "Come with protector case.",
     "dateAdded": "2026-07-28"
   }
 ]
