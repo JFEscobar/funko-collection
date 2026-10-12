@@ -99,6 +99,7 @@ const TRANSLATIONS = {
 // match one of these is shown exactly as typed, in either language.
 const CONDITION_TRANSLATIONS = {
   "mint box": { fr: "boîte neuve", en: "mint box" },
+  "slight damage": { fr: "légèrement endommagée", en: "slight damage" },
   "box damage": { fr: "boîte endommagée", en: "box damage" },
   loose: { fr: "figurine seule (sans boîte)", en: "loose" },
   "no box": { fr: "sans boîte", en: "no box" },

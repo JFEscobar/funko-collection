@@ -152,6 +152,44 @@
     "dateAdded": "2026-07-28"
   },
   {
+    "id": "087",
+    "name": "Taz as The Flash",
+    "series": "Animations",
+    "popNumber": "844",
+    "images": [
+      "images/taz_as_the_flash_1.jpg",
+      "images/taz_as_the_flash_2.jpg",
+      "images/taz_as_the_flash_3.jpg",
+      "images/taz_as_the_flash_4.jpg",
+      "images/taz_as_the_flash_5.jpg",
+      "images/taz_as_the_flash_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-10-12"
+  },
+  {
+    "id": "085",
+    "name": "Batman - Special Edition",
+    "series": "Art Series",
+    "popNumber": "01",
+    "images": [
+      "images/batman_art_1.jpg",
+      "images/batman_art_2.jpg",
+      "images/batman_art_3.jpg",
+      "images/batman_art_4.jpg",
+      "images/batman_art_5.jpg",
+      "images/batman_art_6.jpg"
+    ],
+    "price": 40.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "Come with protector case.",
+    "dateAdded": "2026-07-28"
+  },
+  {
     "id": "006",
     "name": "Zuko",
     "series": "Avatar: The Last Airbender",
@@ -494,6 +532,25 @@
     "dateAdded": "2026-07-28"
   },
   {
+    "id": "090",
+    "name": "Kid Flash",
+    "series": "Heroes",
+    "popNumber": "320",
+    "images": [
+      "images/kid_flash_1.jpg",
+      "images/kid_flash_2.jpg",
+      "images/kid_flash_3.jpg",
+      "images/kid_flash_4.jpg",
+      "images/kid_flash_5.jpg",
+      "images/kid_flash_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-10-12"
+  },
+  {
     "id": "046",
     "name": "Murder Machine - GITD/Chase - Hot Topic Exclusive",
     "series": "Heroes",
@@ -530,6 +587,44 @@
     "status": "available",
     "notes": "",
     "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "086",
+    "name": "The Flash",
+    "series": "Heroes",
+    "popNumber": "208",
+    "images": [
+      "images/the_flash_movie_1.jpg",
+      "images/the_flash_movie_2.jpg",
+      "images/the_flash_movie_3.jpg",
+      "images/the_flash_movie_4.jpg",
+      "images/the_flash_movie_5.jpg",
+      "images/the_flash_movie_6.jpg"
+    ],
+    "price": 20.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-10-12"
+  },
+  {
+    "id": "089",
+    "name": "The Flash",
+    "series": "Heroes",
+    "popNumber": "10",
+    "images": [
+      "images/the_flash_1.jpg",
+      "images/the_flash_2.jpg",
+      "images/the_flash_3.jpg",
+      "images/the_flash_4.jpg",
+      "images/the_flash_5.jpg",
+      "images/the_flash_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-10-12"
   },
   {
     "id": "019",
@@ -923,6 +1018,25 @@
       "images/deku_in_onesie_4.jpg",
       "images/deku_in_onesie_5.jpg",
       "images/deku_in_onesie_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "mint box",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "084",
+    "name": "Eijiro Kirishima",
+    "series": "My Hero Academia",
+    "popNumber": "606",
+    "images": [
+      "images/eijiro_1.jpg",
+      "images/eijiro_2.jpg",
+      "images/eijiro_3.jpg",
+      "images/eijiro_4.jpg",
+      "images/eijiro_5.jpg",
+      "images/eijiro_6.jpg"
     ],
     "price": 30.0,
     "condition": "mint box",
@@ -1390,7 +1504,7 @@
     "id": "009",
     "name": "Boba Fett (Smugler's Bounty)",
     "series": "Star Wars",
-    "popNumber": "369",
+    "popNumber": "102",
     "images": [
       "images/bobafett_smuggler_1.jpg",
       "images/bobafett_smuggler_2.jpg",
@@ -1539,6 +1653,25 @@
     "dateAdded": "2026-07-28"
   },
   {
+    "id": "088",
+    "name": "The Flash",
+    "series": "Television",
+    "popNumber": "213",
+    "images": [
+      "images/the_flash_show_1.jpg",
+      "images/the_flash_show_2.jpg",
+      "images/the_flash_show_3.jpg",
+      "images/the_flash_show_4.jpg",
+      "images/the_flash_show_5.jpg",
+      "images/the_flash_show_6.jpg"
+    ],
+    "price": 30.0,
+    "condition": "slight damage",
+    "status": "available",
+    "notes": "",
+    "dateAdded": "2026-10-12"
+  },
+  {
     "id": "007",
     "name": "Georges St-Pierre",
     "series": "UFC",
@@ -1574,44 +1707,6 @@
     "condition": "mint box",
     "status": "available",
     "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "084",
-    "name": "Eijiro Kirishima",
-    "series": "My Hero Academia",
-    "popNumber": "606",
-    "images": [
-      "images/eijiro_1.jpg",
-      "images/eijiro_2.jpg",
-      "images/eijiro_3.jpg",
-      "images/eijiro_4.jpg",
-      "images/eijiro_5.jpg",
-      "images/eijiro_6.jpg"
-    ],
-    "price": 30.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "",
-    "dateAdded": "2026-07-28"
-  },
-  {
-    "id": "085",
-    "name": "Batman - Special Edition",
-    "series": "Art Series",
-    "popNumber": "01",
-    "images": [
-      "images/batman_art_1.jpg",
-      "images/batman_art_2.jpg",
-      "images/batman_art_3.jpg",
-      "images/batman_art_4.jpg",
-      "images/batman_art_5.jpg",
-      "images/batman_art_6.jpg"
-    ],
-    "price": 40.0,
-    "condition": "mint box",
-    "status": "available",
-    "notes": "Come with protector case.",
     "dateAdded": "2026-07-28"
   }
 ]
