@@ -98,7 +98,7 @@ const TRANSLATIONS = {
 // Common values for the free-text "condition" field. Anything that doesn't
 // match one of these is shown exactly as typed, in either language.
 const CONDITION_TRANSLATIONS = {
-  "mint box": { fr: "boîte neuve", en: "mint box" },
+  "mint box": { fr: "parfait état", en: "mint box" },
   "slight damage": { fr: "légèrement endommagée", en: "slight damage" },
   "box damage": { fr: "boîte endommagée", en: "box damage" },
   loose: { fr: "figurine seule (sans boîte)", en: "loose" },
@@ -127,6 +127,7 @@ let selectedIds = loadSelection();
 let filters = { search: "", series: "all", availableOnly: false };
 let lightboxState = { images: [], index: 0 };
 let currentLang = localStorage.getItem("funko-lang") || "fr";
+let galleryScrollPosition = 0;
 
 const view = document.getElementById("view");
 
@@ -202,7 +203,14 @@ function route() {
   } else {
     renderGallery();
   }
-  window.scrollTo(0, 0);
+
+  if (hash === "#/" || hash === "") {
+    requestAnimationFrame(() => {
+      window.scrollTo(0, galleryScrollPosition);
+    });
+  } else {
+    window.scrollTo(0, 0);
+  }
 }
 
 /* =====================================================================
@@ -292,7 +300,8 @@ function cardTemplate(f) {
 
   return `
     <a href="#/item/${encodeURIComponent(f.id)}"
-       class="group relative flex flex-col bg-white rounded-2xl p-3 sm:p-4 transition-all duration-300 card-hover ${isSelected ? "ring-2 ring-coral-vibrant shadow-lg shadow-coral-vibrant/10" : "ring-1 ring-surface-container-high"}">
+       class="group relative flex flex-col bg-white rounded-2xl p-3 sm:p-4 transition-all duration-300 card-hover ${isSelected ? "ring-2 ring-coral-vibrant shadow-lg shadow-coral-vibrant/10" : "ring-1 ring-surface-container-high"}"
+       onclick="galleryScrollPosition = window.scrollY">
       <div class="relative aspect-square mb-4 sm:mb-6 overflow-hidden rounded-xl bg-surface-container-low flex items-center justify-center">
         ${
           cover
